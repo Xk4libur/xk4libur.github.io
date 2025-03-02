@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Direccion IP (sin terminar)
-date: XXXX-XX-XX
+date: 1999-01-01
 classes: wide
 header:
   teaser: /assets/images/slae32.png
