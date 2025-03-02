@@ -49,3 +49,5 @@ Una manera de calcular la cantidad máxima de direcciones IPv4 e IPv6 posibles e
 **Dirección IPv6**:
 
 ![](/assets/images/direccion-ip/6.png)
+
+Hoy en día, el uso de direcciones IPv6 se ha expandido significativamente debido a la escasez de direcciones IPv4, las cuales son insuficientes en comparación con la cantidad de dispositivos conectados a internet en todo el mundo. Gracias a la enorme cantidad de direcciones que permite IPv6, muchas empresas han adoptado este protocolo de manera masiva. Sin embargo, aún existen proveedores de servicios de internet (ISP) que continúan utilizando direcciones IPv4.
