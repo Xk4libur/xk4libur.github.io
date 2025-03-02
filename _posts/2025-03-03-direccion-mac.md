@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 2. Direcciones IP
+title: 2. Direcciones MAC
 date: 2025-03-03
 classes: wide
 header:
