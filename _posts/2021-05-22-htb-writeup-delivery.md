@@ -9,14 +9,8 @@ header:
   teaser_home_page: true
   icon: /assets/images/hackthebox.webp
 categories:
-  - hackthebox
-  - infosec
 tags:  
-  - osticket
-  - mysql
-  - mattermost
-  - hashcat
-  - rules
+
 ---
 
 ![](/assets/images/htb-writeup-delivery/delivery_logo.png)
