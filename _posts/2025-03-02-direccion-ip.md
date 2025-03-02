@@ -18,3 +18,5 @@ Una **dirección IP** es un **identificador númerico único** asignado a un dis
 Un ejemplo de una dirección ip puede ser el siguiente:
 
 ![](/assets/images/direccion-ip/1.png)
+
+fiejfoierjfoierjfoj
