@@ -1,17 +1,14 @@
 ---
 layout: single
-title: Direccion IP (sin terminar)
-date: 1999-01-01
+title: Direcciones IP
+date: 2025-03-02
 classes: wide
 header:
   teaser: /assets/images/slae32.png
 categories:
-  - slae
-  - infosec
+  - linux
 tags:
-  - slae
-  - assembly
-  - tcp bind shellcode
+  - info
 ---
 Una **dirección IP** es un **identificador númerico único** asignado a un dispositivo al conectarse a una red. Este dispositivo puede ser una computadora, una tableta, un router, un servidor, entre otros.
 
