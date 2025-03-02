@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Direccione
+title: Direccion IP (sin terminar)
 date: XXXX-XX-XX
 classes: wide
 header:
