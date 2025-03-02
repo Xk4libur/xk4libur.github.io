@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Direcciones IP
+title: 1. Direcciones IP
 date: 2025-03-02
 classes: wide
 header:
