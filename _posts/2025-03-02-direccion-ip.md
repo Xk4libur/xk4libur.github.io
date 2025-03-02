@@ -38,3 +38,5 @@ Una manera de calcular la cantidad máxima de direcciones IPv4 e IPv6 posibles e
 - Cantidad máxima de direcciones IPv6:
 
 ![](/assets/images/direccion-ip/5.png)
+
+## Ejemplo visual
