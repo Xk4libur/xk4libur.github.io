@@ -9,6 +9,7 @@ categories:
   - linux
 tags:
   - info
+  - dirección ip
 ---
 Una **dirección IP** es un **identificador númerico único** asignado a un dispositivo al conectarse a una red. Este dispositivo puede ser una computadora, una tableta, un router, un servidor, entre otros.
 
