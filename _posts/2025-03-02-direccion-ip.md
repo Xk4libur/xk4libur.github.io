@@ -19,4 +19,4 @@ Un ejemplo de una dirección ip puede ser el siguiente:
 
 ![](/assets/images/direccion-ip/1.png)
 
-fiejfoierjfoierjfoj
+jwdepjwdjiwed
