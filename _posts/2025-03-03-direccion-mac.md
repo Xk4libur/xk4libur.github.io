@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Direcciones MAC
+title: Direcciones MAC (sin terminar)
 date: 2025-03-02
 classes: wide
 header:
