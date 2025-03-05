@@ -20,11 +20,11 @@ Este protocolo necesita conexión para transmitir los datos, además de que regu
 
 Algunos de los puertos más comunes de TCP son: 
 
-· 21:**FTP** (File Transfer Protocol) - permite la transferencia de archivos entre sistemas.
-· 22:**SSH** (Secure Shell) - protocolo de red seguro usado para conectarse y administrar sistemas de forma remota
-· 23:**Telnet** - protocolo usado para la conexión remota a dispositivos.
-· 80:**HTTP** (Hypertext Transfer Protocol) - protocolo usado para transferir datos en la World Wide Web.
-· 443:**HTTPS**(Hypertext Transfer Protocol Secure) - es la versión seguira de HTTP, se usa con encriptación SSL para proteger las comunicaciones via web.
+- 21:**FTP** (File Transfer Protocol) - permite la transferencia de archivos entre sistemas.
+- 22:**SSH** (Secure Shell) - protocolo de red seguro usado para conectarse y administrar sistemas de forma remota
+- 23:**Telnet** - protocolo usado para la conexión remota a dispositivos.
+- 80:**HTTP** (Hypertext Transfer Protocol) - protocolo usado para transferir datos en la World Wide Web.
+- 443:**HTTPS**(Hypertext Transfer Protocol Secure) - es la versión seguira de HTTP, se usa con encriptación SSL para proteger las comunicaciones via web.
 
 ### ¿Qué es el protocolo UDP?
 
