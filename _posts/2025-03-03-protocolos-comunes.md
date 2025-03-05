@@ -12,7 +12,7 @@ tags:
   - udp
 ---
 
-### ¿Qué es el protocolo TCP?
+## ¿Qué es el protocolo TCP?
 
 El protocolo **TCP** (Transmission Control Protocol) es un protocolo orientado a conexión que se encuentra situado en la capa de transporte del modelo OSI. Tiene la función de garantizar que los datos lleguen de forma exitosa, totalmente completos y en orden desde un dispositivo de origen hasta otro de destino.
 
@@ -26,7 +26,7 @@ Algunos de los puertos más comunes de TCP son:
 - 80 **HTTP** (Hypertext Transfer Protocol) - protocolo usado para transferir datos en la World Wide Web.
 - 443 **HTTPS** (Hypertext Transfer Protocol Secure) - es la versión seguira de HTTP, se usa con encriptación SSL para proteger las comunicaciones via web.
 
-### ¿Qué es el protocolo UDP?
+## ¿Qué es el protocolo UDP?
 
 El protocolo **UDP** (User Datagram Protocol) es un protocolo más simple y rápido que TCP, pero cuenta con algunas desventajas: 
 
@@ -39,7 +39,7 @@ Algunos de los puertos más comunes de UDP son:
 - 123 **NTP** (Network Time Protocol) - protocolo usado para sincronizar los relojes de los dispositivos de una red
 - 161 **SNMP** (Simple Network Management Protocol) - protocolo usado para administrar y supervisar los dispositivos de una red.
 
-### ¿Qué es el famoso Three-Way Handshake?
+## ¿Qué es el famoso Three-Way Handshake?
 
 Es una parte fundamental del protocolo **TCP**, se trata de un procedimiento usado para establecer una conexión entre 2 dispositivos. El TWH es un paso básico para crear una conexión confiable y segura para la tranferencia de paquetes en TCP. 
 
