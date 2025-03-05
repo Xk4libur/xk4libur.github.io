@@ -20,11 +20,11 @@ Este protocolo necesita conexión para transmitir los datos, además de que regu
 
 Algunos de los puertos más comunes de TCP son: 
 
-- 21:**FTP** (File Transfer Protocol) - permite la transferencia de archivos entre sistemas.
-- 22:**SSH** (Secure Shell) - protocolo de red seguro usado para conectarse y administrar sistemas de forma remota
-- 23:**Telnet** - protocolo usado para la conexión remota a dispositivos.
-- 80:**HTTP** (Hypertext Transfer Protocol) - protocolo usado para transferir datos en la World Wide Web.
-- 443:**HTTPS**(Hypertext Transfer Protocol Secure) - es la versión seguira de HTTP, se usa con encriptación SSL para proteger las comunicaciones via web.
+- 21 **FTP** (File Transfer Protocol) - permite la transferencia de archivos entre sistemas.
+- 22 **SSH** (Secure Shell) - protocolo de red seguro usado para conectarse y administrar sistemas de forma remota
+- 23 **Telnet** - protocolo usado para la conexión remota a dispositivos.
+- 80 **HTTP** (Hypertext Transfer Protocol) - protocolo usado para transferir datos en la World Wide Web.
+- 443 **HTTPS**(Hypertext Transfer Protocol Secure) - es la versión seguira de HTTP, se usa con encriptación SSL para proteger las comunicaciones via web.
 
 ### ¿Qué es el protocolo UDP?
 
@@ -35,9 +35,9 @@ El protocolo **UDP** (User Datagram Protocol) es un protocolo más simple y ráp
 
 Algunos de los puertos más comunes de UDP son: 
 
-· 53 **DNS** (Domain Name System) - un sistema que traduce nombres de dominio a direcciones IP
-· 123 **NTP** (Network Time Protocol) - protocolo usado para sincronizar los relojes de los dispositivos de una red
-· 161 **SNMP** (Simple Network Management Protocol) - protocolo usado para administrar y supervisar los dispositivos de una red.
+- 53 **DNS** (Domain Name System) - un sistema que traduce nombres de dominio a direcciones IP
+- 123 **NTP** (Network Time Protocol) - protocolo usado para sincronizar los relojes de los dispositivos de una red
+- 161 **SNMP** (Simple Network Management Protocol) - protocolo usado para administrar y supervisar los dispositivos de una red.
 
 ### ¿Qué es el famoso Three-Way Handshake?
 
