@@ -20,7 +20,13 @@ Una **dirección MAC** tambien llamada com (Media Access Control) es un identifi
 
 Una dirección MAC se representa en formato **hexadecimal** y se divide en 6 bloques de 2 caracteres, cada uno de estos bloques separados por 2 puntos (:).
 
-Los **3 primeros bloques** forman el OUI (Organizationally Unique Identifier), mientras que los **3 últimos bloques** forman el NIC (Network Interface Controller).
+Los **3 primeros bloques** forman el OUI (Organizationally Unique Identifier):
+
+![](/assets/images/direccion-mac/2.png)
+
+Los **3 últimos bloques** forman el NIC (Network Interface Controller).
+
+![](/assets/images/direccion-mac/3.png)
 
 El **OUI** de la dirección MAC representa al fabricante de dicha tarjeta de red, mientras que el **NIC** representa el modelo de la tarjeta de red.
 
