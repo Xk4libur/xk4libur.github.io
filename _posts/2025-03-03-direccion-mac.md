@@ -18,4 +18,17 @@ Una **dirección MAC** tambien llamada com (Media Access Control) es un identifi
 ![](/assets/images/direccion-mac/1.png)
 
 
-hiuhihiuhiuhiuhiuh
+Una dirección MAC se representa en formato **hexadecimal** y se divide en 6 bloques de 2 caracteres, cada uno de estos bloques separados por 2 puntos (:).
+
+Los **3 primeros bloques** forman el OUI (Organizationally Unique Identifier), mientras que los **3 últimos bloques** forman el NIC (Network Interface Controller).
+
+El **OUI** de la dirección MAC representa al fabricante de dicha tarjeta de red, mientras que el **NIC** representa el modelo de la tarjeta de red.
+
+## "¿Realmente la dirección MAC es un identificador 'único'?"
+
+Realmente la dirección MAC **no** es un identificador único debido a que existen herramientas como **macchanger** que permiten cambiar la MAC de una tarjeta de red para ciertos casos.
+
+Algunos ejemplos son: 
+
+- **Anonimato**: para ocultar la MAC real del dispositivo en redes públicas y evitar ser rastreado.
+- **Pentesting**: para realizar pruebas de seguridad y auditorías Wi-Fi. 
