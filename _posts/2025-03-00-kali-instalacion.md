@@ -5,6 +5,7 @@ excerpt: "En este artículo explico como instalar kali linux en una máquina vir
 date: 2025-03-00
 classes: wide
 header:
+ teaser_home_page: true
 categories:
   - linux
 tags:  
