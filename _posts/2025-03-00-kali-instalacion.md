@@ -11,5 +11,3 @@ categories:
 tags:  
   - custom
 ---
-
-Hola esto es una prueba de texto
