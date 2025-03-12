@@ -43,4 +43,6 @@ Añadimos el disco duro de almacenamiento que tendrá la máquina:
 
 ![](/assets/images/kali-linux-install/5.png)
 
+Para tener un buen rendimiento en la máquina, nos dirigimos a la sección de **Pantalla**, y le subimos la memoria de video a los 128 mb, pero **sin activar la aceleración 3D**:
 
+![](/assets/images/kali-linux-install/6.png)
