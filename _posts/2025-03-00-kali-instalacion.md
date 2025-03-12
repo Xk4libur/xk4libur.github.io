@@ -21,8 +21,18 @@ Para descargar la ISO de Kali, nos dirigimos a la siguiente página web:
 [ISO de Kali Linux](https://www.kali.org/get-kali/#kali-installer-images)
 
 
-Al ingresar a la web, nos aparecerán varias versiones de la ISO, elegimos la opción “recommended”:
+Al ingresar a la web, nos aparecerán varias versiones de la ISO, elegimos la opción **recommended**:
 
 ![](/assets/images/kali-linux-install/1.png)
 
-uiuhiuh
+Cuando tengamos descargado el archivo .ISO, nos dirigimos al software que usaremos para virtualizarlo, en mi caso usaré **Virtualbox**:
+
+Empezamos creando una nueva máquina virtual:
+
+![](/assets/images/kali-linux-install/2.png)
+
+Ponemos un nombre a la máquina y le asignamos la ISO de Kali Linux:
+
+![](/assets/images/kali-linux-install/3.png)
+
+wioefoijweodjwoiejd
