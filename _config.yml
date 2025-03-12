@@ -102,7 +102,7 @@ analytics:
 # Site Author
 author:
   name             : "xk4libur"
-  avatar           : "/assets/images/sword.jpg"
+  avatar           : "/assets/images/logo.png"
   bio              : "CTF player"
   location         : "Ireland"
   email            : #"info@snowscan.io"
