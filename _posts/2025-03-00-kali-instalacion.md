@@ -35,4 +35,12 @@ Ponemos un nombre a la máquina y le asignamos la ISO de Kali Linux:
 
 ![](/assets/images/kali-linux-install/3.png)
 
-wioefoijweodjwoiejd
+Le asignamos los recursos del sistema, como la memoria RAM y los núcleos de la CPU que tendrá la máquina virtual:
+
+![](/assets/images/kali-linux-install/4.png)
+
+Añadimos el disco duro de almacenamiento que tendrá la máquina:
+
+![](/assets/images/kali-linux-install/5.png)
+
+
