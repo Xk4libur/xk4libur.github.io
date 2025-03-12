@@ -19,3 +19,10 @@ tags:
 Para descargar la ISO de Kali, nos dirigimos a la siguiente página web:
 
 [ISO de Kali Linux](https://www.kali.org/get-kali/#kali-installer-images)
+
+
+Al ingresar a la web, nos aparecerán varias versiones de la ISO, elegimos la opción “recommended”:
+
+![](/assets/images/kali-linux-install/1.png)
+
+uiuhiuh
