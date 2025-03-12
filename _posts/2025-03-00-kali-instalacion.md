@@ -6,7 +6,9 @@ date: 2025-03-00
 classes: wide
 header:
 categories:
+  - linux
 tags:  
+  - custom
 ---
 
 ouhiuhiuhuihuiohiouhou
