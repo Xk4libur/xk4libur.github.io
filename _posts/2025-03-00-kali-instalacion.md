@@ -20,6 +20,7 @@ Para descargar la ISO de Kali, nos dirigimos a la siguiente página web:
 
 [ISO de Kali Linux](https://www.kali.org/get-kali/#kali-installer-images)
 
+## Creación de la máquina virtual
 
 Al ingresar a la web, nos aparecerán varias versiones de la ISO, elegimos la opción **recommended**:
 
@@ -51,3 +52,18 @@ Una vez hecho todo esto, ya podemos iniciar la máquina:
 
 ![](/assets/images/kali-linux-install/7.png)
 
+## Instalación de Kali Linux
+
+Elegimos el idioma:
+
+![](/assets/images/kali-linux-install/8.png)
+
+Incluimos el nombre de host que tendrá Kali para identificarse en la red:
+
+![](/assets/images/kali-linux-install/9.png)
+
+Elegimos un nombre de usuario y una contraseña:
+
+![](/assets/images/kali-linux-install/10.png)
+
+![](/assets/images/kali-linux-install/11.png)
