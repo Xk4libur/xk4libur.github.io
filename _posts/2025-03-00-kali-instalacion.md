@@ -67,3 +67,28 @@ Elegimos un nombre de usuario y una contraseña:
 ![](/assets/images/kali-linux-install/10.png)
 
 ![](/assets/images/kali-linux-install/11.png)
+
+Elegimos el tipo de particionado del disco, así como el disco de la máquina virtual:
+
+![](/assets/images/kali-linux-install/12.png)
+
+![](/assets/images/kali-linux-install/13.png)
+
+![](/assets/images/kali-linux-install/14.png)
+
+Aplicamos los cambios:
+
+![](/assets/images/kali-linux-install/15.png)
+
+![](/assets/images/kali-linux-install/16.png)
+
+Seleccionamos los programas así como el entorno de escritorio que se instalarán por defecto:
+
+![](/assets/images/kali-linux-install/17.png)
+
+Y por último, instalamos el GRUB para el arranque de Kali Linux al iniciar la máquina:
+
+![](/assets/images/kali-linux-install/18.png)
+
+![](/assets/images/kali-linux-install/19.png)
+
