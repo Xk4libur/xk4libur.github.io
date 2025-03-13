@@ -92,3 +92,20 @@ Y por último, instalamos el GRUB para el arranque de Kali Linux al iniciar la m
 
 ![](/assets/images/kali-linux-install/19.png)
 
+## Actualizar Kali Linux
+
+En sistemas operativos Linux se ha de actualizar por terminal usando comandos de bash, para este caso, abrimos la terminal y ejecutamos los siguiente comandos:
+
+· Para ver cuantos paquetes se pueden actualizar, ejecutamos este comando:
+
+![](/assets/images/kali-linux-install/20.png)
+
+· Podemos ver la cantidad de paquetes que se pueden actualizar:
+
+![](/assets/images/kali-linux-install/21.png)
+
+· Para actualizarlos, ejecutamos el siguiente comando y confirmamos:
+
+![](/assets/images/kali-linux-install/22.png)
+
+![](/assets/images/kali-linux-install/23.png)
