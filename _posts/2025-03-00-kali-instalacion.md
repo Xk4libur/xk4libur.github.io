@@ -159,3 +159,19 @@ sudo nano ~/.config/sxhkd/sxhkdrc
 · Cambiamos el **urxvt**, por la terminal de **kitty**:
 
 ![](/assets/images/kali-linux-install/28.png)
+
+· Lo siguiente que cambiaremos será el lanzador de programas viene por defecto:
+
+![](/assets/images/kali-linux-install/29.png)
+
+· Cambiamos el que viene por defecto, por el lanzador de **rofi**:
+
+![](/assets/images/kali-linux-install/30.png)
+
+· Lo siguiente será cambiar esta combinación de teclas, que nos permite poder elegir una ventana de un programa en caso de tengamos más de 2 ventanas abiertas en el mismo espacio de trabajo:
+
+![](/assets/images/kali-linux-install/31.png)
+
+· Lo cambiaremos de la siguiente forma:
+
+![](/assets/images/kali-linux-install/32.png)
