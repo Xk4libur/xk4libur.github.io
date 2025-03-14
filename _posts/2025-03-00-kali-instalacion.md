@@ -22,6 +22,7 @@ tags:
 - [Instalar la terminal de kitty y configurar las fuentes](#instalar-la-terminal-de-kitty-y-configurar-las-fuentes)
 - [Configurar polybar](#configurar-polybar)
 - [Configurar bordes, sombras con Picom](#configurar-bordes-sombras-con-picom)
+- [Configurar la powerlevel10k](#configurar-la-powerlevel10k)
 
 
 ## ¿Qué es Kali Linux?
@@ -291,3 +292,23 @@ mkdir ~/.config/picom
 Dentro de este directorio, añadimos el siguiente archivo de configuración: 
 
 - [picom.conf](https://hack4u.io/wp-content/uploads/2022/09/picom.conf_.txt)
+
+Para que se aplique de forma permante la configuración de los bordes, añadimos 'picom &' en el archivo **bspwmrc**.
+
+## Configurar la powerlevel10k
+
+La **powerlevel10k** es un tema para ZSH popular por ser atractivo visualmente y dar información sobre ciertas elementos del sistema. 
+
+Para instalar la powerlevel10k, ejecutamos los siguientes comandos:
+
+```bash
+cd
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+zsh
+```
+Cuando hayamos terminado de ejecutar estos comandos, podemos modificar ligeramente la powerlevel10k comentando los módulos que se muestran a la derecha de la pantalla, esto se hace modificando el archivo **.p10k.zsh**.
+
+Para eliminar los módulos de la derecha comentamos todos los módulos de este apartado:
+
+![](/assets/images/kali-linux-install/40.png)
