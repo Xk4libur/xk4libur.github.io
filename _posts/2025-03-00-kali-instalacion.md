@@ -137,14 +137,14 @@ apt install bspwm
 ```
 Para poder configurar tanto **bspwm** como **sxhkd**, hay que editar sus archivos de configuración, estos arhivos se guardan en esta ruta:
 
-[](/assets/images/kali-linux-install/24.png)
+![](/assets/images/kali-linux-install/24.png)
 
 Pero antes de modificar nada, crearemos unos directorios de configuración para copiar esos archivos:
 
-[](/assets/images/kali-linux-install/25.png)
+![](/assets/images/kali-linux-install/25.png)
 
 Y ahora copiamos los archivos de configuración, cada uno en su directorio correspondiente:
 
-[](/assets/images/kali-linux-install/26.png)
+![](/assets/images/kali-linux-install/26.png)
 
 oijoijojoj
