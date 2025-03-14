@@ -147,3 +147,15 @@ Y ahora copiamos los archivos de configuración, cada uno en su directorio corre
 
 ![](/assets/images/kali-linux-install/26.png)
 
+Ahora si que podemos empezar a editar los atajos de teclado, en el archivo **sxhkdrc**:
+
+```bash
+sudo nano ~/.config/sxhkd/sxhkdrc
+```
+· Lo primero que cambiaremos será el emulador de terminal que viene por defecto:
+
+![](/assets/images/kali-linux-install/27.png)
+
+· Cambiamos el **urxvt**, por la terminal de **kitty**:
+
+![](/assets/images/kali-linux-install/28.png)
