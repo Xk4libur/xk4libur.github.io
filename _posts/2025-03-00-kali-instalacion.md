@@ -20,6 +20,8 @@ tags:
 - [Instalar y configurar bspwm y sxhkd](#instalar-y-configurar-bspwm-y-sxhkd)
 - [Instalar polybar, rofi y picom](#instalar-polybar-rofi-y-picom)
 - [Instalar la terminal de kitty y configurar las fuentes](#instalar-la-terminal-de-kitty-y-configurar-las-fuentes)
+- [Configurar polybar](#configurar-polybar)
+
 
 ## ¿Qué es Kali Linux?
 
@@ -259,3 +261,21 @@ Los archivos de configuración son los siguientes:
 - [kitty.conf](https://hack4u.io/wp-content/uploads/2022/09/kitty.conf_.txt)
 
 - [color.ini](https://hack4u.io/wp-content/uploads/2022/09/color.ini_.txt)
+
+Lo siguiente será instalar las **Hack Nerd Fonts** que es el tipo de fuentes que usaremos en la terminal.
+
+## Configurar polybar
+
+Para configurar la **polybar**, clonamos en 'Descargas' el siguiente repositorio:
+
+```bash
+git clone https://github.com/VaughnValle/blue-sky.git
+mkdir ~/.config/polybar
+cd ~/Descargas/blue-sky/polybar/
+cp * -r ~/.config/polybar
+echo '~/.config/polybar/launch.sh $' >> ~/.config/bspwm/bspwmrc 
+cd fonts
+sudo cp * /usr/share/fonts/truetype/
+fc-cache -v
+```
+Cuando hayamos ejecutado los comandos anteriores, deberias poder ver la polybar por la parte superior de la pantalla en el entorno de bspwm.
