@@ -17,6 +17,8 @@ tags:
 - [Creación de la máquina virtual](#creacion-de-la-maquina-virtual)
 - [Instalar Kali Linux](#instalar-kali-linux)
 - [Actualizar Kali Linux](#actualizar-kali-linux)
+- [Instalar y configurar bspwm y sxhkd](#instalar-y-configurar-bspwm-y-sxhkd)
+- [Instalar polybar, rofi y picom](#instalar-polybar-rofi-y-picom)
 
 
 ## ¿Qué es Kali Linux?
@@ -121,7 +123,9 @@ En sistemas operativos Linux se ha de actualizar por terminal usando comandos de
 
 Antes de nada, vamos a instalar algunas dependencias necesarias:
 
-```apt install build-essential git vim libxcb-util0-dev libxcb-ewmh-dev libxcb-randr0-dev libxcb-icccm4-dev libxcb-keysyms1-dev libxcb-xinerama0-dev libasound2-dev libxcb-xtest0-dev libxcb-shape0-dev```
+```bash
+sudo apt install build-essential git vim libxcb-util0-dev libxcb-ewmh-dev libxcb-randr0-dev libxcb-icccm4-dev libxcb-keysyms1-dev libxcb-xinerama0-dev libasound2-dev libxcb-xtest0-dev libxcb-shape0-dev
+```
 
 Nos dirigimos a la carpeta de descargas del equipo y descargar los proyectos ‘bswpm‘ y ‘sxhkd‘ con los siguientes comandos:
 
@@ -133,7 +137,7 @@ Para instalar cada uno de estos, hay que meternos en ambos directorios por separ
 Vamos a instalar una dependencia más de bspwm, ya que nos será de utilidad más adelante:
 
 ```bash
-apt install bspwm
+sudo apt install bspwm
 ```
 Para poder configurar tanto **bspwm** como **sxhkd**, hay que editar sus archivos de configuración, estos arhivos se guardan en esta ruta:
 
@@ -197,3 +201,13 @@ sudo nano ~/.config/sxhkd/sxhkdrc
 ![](/assets/images/kali-linux-install/37.png)
 
 ![](/assets/images/kali-linux-install/38.png)
+
+![](/assets/images/kali-linux-install/39.png)
+
+## Instalar polybar, rofi y picom
+
+Para poder instalar la polybar, antes hay que instalar ciertas dependencias:
+
+```bash
+sudo apt install cmake cmake-data pkg-config python3-sphinx libcairo2-dev libxcb1-dev libxcb-util0-dev libxcb-randr0-dev libxcb-composite0-dev python3-xcbgen xcb-proto libxcb-image0-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-xkb-dev libxcb-xrm-dev libxcb-cursor-dev libasound2-dev libpulse-dev libjsoncpp-dev libmpdclient-dev libcurl4-openssl-dev libnl-genl-3-dev
+```
