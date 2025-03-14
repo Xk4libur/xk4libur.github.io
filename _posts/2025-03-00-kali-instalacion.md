@@ -15,7 +15,7 @@ tags:
 # Índice
 - [¿Qué es Kali Linux?](#qué-es-kali-linux)
 - [Creación de la máquina virtual](#creacion-de-la-maquina-virtual)
-- [Instalación de Kali Linux](#instalación-de-kali-linux)
+- [Instalar Kali Linux](#instalar-kali-linux)
 - [Actualizar Kali Linux](#actualizar-kali-linux)
 
 
@@ -59,7 +59,7 @@ Una vez hecho todo esto, ya podemos iniciar la máquina:
 
 ![](/assets/images/kali-linux-install/7.png)
 
-## Instalación de Kali Linux
+## Instalar Kali Linux
 
 Elegimos el idioma:
 
