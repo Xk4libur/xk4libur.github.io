@@ -116,3 +116,12 @@ En sistemas operativos Linux se ha de actualizar por terminal usando comandos de
 ![](/assets/images/kali-linux-install/22.png)
 
 ![](/assets/images/kali-linux-install/23.png)
+
+## Instalar y configurar bspwm y sxhkd
+
+Antes de nada, vamos a instalar algunas dependencias necesarias:
+
+```bash
+apt install build-essential git vim libxcb-util0-dev libxcb-ewmh-dev libxcb-randr0-dev libxcb-icccm4-dev libxcb-keysyms1-dev libxcb-xinerama0-dev libasound2-dev libxcb-xtest0-dev libxcb-shape0-dev```
+
+
