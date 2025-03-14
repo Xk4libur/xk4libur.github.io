@@ -128,4 +128,9 @@ Nos dirigimos a la carpeta de descargas del equipo y descargar los proyectos ‘
 - git clone https://github.com/baskerville/bspwm.git
 - git clone https://github.com/baskerville/sxhkd.git
 
+Para instalar cada uno de estos, hay que meternos en ambos directorios por separado y ejecutar los comandos **make** y **sudo make install** en ambos directorios.
 
+Vamos a instalar una dependencia más de bspwm, ya que nos será de utilidad más adelante:
+
+```sudo apt install bspwm
+```
