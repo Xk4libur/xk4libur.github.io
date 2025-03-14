@@ -266,7 +266,7 @@ Lo siguiente será instalar las **Hack Nerd Fonts** que es el tipo de fuentes qu
 
 ## Configurar polybar
 
-Para configurar la **polybar**, clonamos en 'Descargas' el siguiente repositorio:
+Para configurar la **polybar**, ejecutamos los siguientes comandos en el directorio 'Descargas': 
 
 ```bash
 git clone https://github.com/VaughnValle/blue-sky.git
