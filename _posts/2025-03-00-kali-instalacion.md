@@ -147,3 +147,4 @@ Y ahora copiamos los archivos de configuración, cada uno en su directorio corre
 
 [](/assets/images/kali-linux-install/26.png)
 
+oijoijojoj
