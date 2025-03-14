@@ -12,6 +12,13 @@ tags:
   - custom
 ---
 
+# Índice
+- [¿Qué es Kali Linux?](#qué-es-kali-linux)
+- [Creación de la máquina virtual](#creacion-de-la-maquina-virtual)
+- [Instalación de Kali Linux](#instalación-de-kali-linux)
+- [Actualizar Kali Linux](#actualizar-kali-linux)
+
+
 ## ¿Qué es Kali Linux?
 
 **Kali Linux** es un sistema operativo basado en Debian (una de las distribuciones de linux más famosas y estables), está orientado al sector de la ciberseguridad y el hacking ético, y es conocido como el rey de los sistemas operativos enfocados al hacking ya que está mantenido por Offensive Security. 
