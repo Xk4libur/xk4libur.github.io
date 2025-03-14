@@ -21,6 +21,7 @@ tags:
 - [Instalar polybar, rofi y picom](#instalar-polybar-rofi-y-picom)
 - [Instalar la terminal de kitty y configurar las fuentes](#instalar-la-terminal-de-kitty-y-configurar-las-fuentes)
 - [Configurar polybar](#configurar-polybar)
+- [Configurar bordes, sombras con Picom](#configurar-bordes-sombras-con-picom)
 
 
 ## ¿Qué es Kali Linux?
@@ -279,3 +280,14 @@ sudo cp * /usr/share/fonts/truetype/
 fc-cache -v
 ```
 Cuando hayamos ejecutado los comandos anteriores, deberias poder ver la polybar por la parte superior de la pantalla en el entorno de bspwm.
+
+## Configurar bordes, sombras con Picom
+
+Ahora toca configurar los bordes para que todo bien guapo, para ello creamos el siguiente directorio:
+
+```bash
+mkdir ~/.config/picom
+```
+Dentro de este directorio, añadimos el siguiente archivo de configuración: 
+
+- [picom.conf](https://hack4u.io/wp-content/uploads/2022/09/picom.conf_.txt)
