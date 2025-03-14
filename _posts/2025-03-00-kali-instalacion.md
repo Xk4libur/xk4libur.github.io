@@ -175,3 +175,25 @@ sudo nano ~/.config/sxhkd/sxhkdrc
 · Lo cambiaremos de la siguiente forma:
 
 ![](/assets/images/kali-linux-install/32.png)
+
+· Lo siguiente será cambiar los preselectores, que nos permiten elegir un tamaño prefijado para una ventana antes de abrir dicha ventana, es decir, nos permitirá ver el tamaño que ocupará una aplicación antes de abrir dicha aplicación:
+
+![](/assets/images/kali-linux-install/33.png)
+
+· Lo cambiaremos de la siguiente forma:
+
+![](/assets/images/kali-linux-install/34.png)
+
+· También comentaremos todas estas combinaciones de teclado, ya que no las necesitaremos:
+
+![](/assets/images/kali-linux-install/35.png)
+
+· Podemos añadir editar este módulo que nos permite mover una ventana flotante dentro del entorno de bspwm, así como otro módulo que nos permita modificar el tamaño de las ventanas que ya estén abiertas:
+
+![](/assets/images/kali-linux-install/36.png)
+
+· Lo siguiente que haremos será crear el archivo de **bspwm_resize** para que el módulo funcione: 
+
+![](/assets/images/kali-linux-install/37.png)
+
+![](/assets/images/kali-linux-install/38.png)
