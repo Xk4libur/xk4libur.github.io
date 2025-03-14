@@ -132,7 +132,8 @@ Para instalar cada uno de estos, hay que meternos en ambos directorios por separ
 
 Vamos a instalar una dependencia más de bspwm, ya que nos será de utilidad más adelante:
 
-```sudo apt install bspwm
+```bash
+ apt install bspwm
 ```
 Para poder configurar tanto **bspwm** como **sxhkd**, hay que editar sus archivos de configuración, estos arhivos se guardan en esta ruta:
 
