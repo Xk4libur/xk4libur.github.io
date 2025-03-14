@@ -125,7 +125,7 @@ Antes de nada, vamos a instalar algunas dependencias necesarias:
 
 Nos dirigimos a la carpeta de descargas del equipo y descargar los proyectos ‘bswpm‘ y ‘sxhkd‘ con los siguientes comandos:
 
-```git clone https://github.com/baskerville/bspwm.git
-git clone https://github.com/baskerville/sxhkd.git
-```
+· git clone https://github.com/baskerville/bspwm.git
+· git clone https://github.com/baskerville/sxhkd.git
+
 
