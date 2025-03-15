@@ -312,3 +312,41 @@ Cuando hayamos terminado de ejecutar estos comandos, podemos modificar ligeramen
 Para eliminar los módulos de la derecha comentamos todos los módulos de este apartado:
 
 ![](/assets/images/kali-linux-install/40.png)
+
+Repetimos los 2 pasos anteriores para el usuario administrador, pero en el directorio **/root** del sistema.
+
+## Instalar batcat y lsd
+
+Estos programas son versiones de los comandos 'cat' y 'ls' de linux, pero modificados para que sean más atractivos de usar:
+
+
+- [Batcat](https://github.com/sharkdp/bat/releases/tag/v0.25.0)
+
+![](/assets/images/kali-linux-install/41.png)
+
+- [Lsd](https://github.com/lsd-rs/lsd/releases/tag/v1.1.5)
+
+![](/assets/images/kali-linux-install/42.png)
+
+Antes de instalar estos programas, nos dirigimos al directorio **/root** del sistema como usuario administrador y eliminamos el archivo ".zshrc" para luego hacer un link simbólico con el archivo ".zshrc" del usuario normal:
+
+![](/assets/images/kali-linux-install/44.png)
+
+![](/assets/images/kali-linux-install/43.png)
+
+Y ahora si que podemos instalar los programas: 
+
+![](/assets/images/kali-linux-install/45.png)
+
+Para poder usar los programas, nos dirigimos al archivo ".zshrc", y incluimos las siguientes lineas al final del archivo:
+
+```bash
+# CUSTOM ALIAS
+
+alias ls='lsd -l'
+alias cat='bat'
+```
+
+Al reiniciar la máquina, los cambios se aplicarán.
+
+huihih
