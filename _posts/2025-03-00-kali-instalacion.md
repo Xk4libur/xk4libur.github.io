@@ -348,5 +348,3 @@ alias cat='bat'
 ```
 
 Al reiniciar la máquina, los cambios se aplicarán.
-
-huihih
