@@ -23,3 +23,6 @@ Un **Firewall** es un sistema diseñado para proteger las redes informáticas de
 ```bash
 nmap -p22 --mtu 8 <IP>
 ```
+En este ejemplo se envían paquetes con un tamaño **máximo de 8 bytes**, al ser los paquetes muy pequeños, éstos pasan desapercibidos por el firewall.
+
+Algunos firewalls puede bloquear paquetes a partir un tamaño estándar, pero no son capaces de detectar fragmentos pequeños de dichos paquetes.
