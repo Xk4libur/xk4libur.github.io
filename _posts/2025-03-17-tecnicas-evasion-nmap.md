@@ -27,7 +27,7 @@ En este ejemplo se envían paquetes con un tamaño **máximo de 8 bytes**, al se
 
 Algunos firewalls puede bloquear paquetes a partir un tamaño estándar, pero no son capaces de detectar fragmentos pequeños de dichos paquetes.
 
-**Source Port (--source-port)**: este parámetro permite "simular" un envío de paquetes a través de un puerto específico, ya que puede ser que los firewalls estén configurados para recibir paquetes a través de ciertos puertos de confianza.
+- **Source Port (--source-port)**: este parámetro permite "simular" un envío de paquetes a través de un puerto específico, ya que puede ser que los firewalls estén configurados para recibir paquetes a través de ciertos puertos de confianza.
 
 ```bash
 nmap --source-port 53 <IP>
@@ -37,7 +37,7 @@ En este ejemplo, se falsifica el puerto de origen de los paquetes como si provin
 
 Algunos firewalls pueden confiar en este tráfico y dejarlo pasar, creyendo que proviene de un servidor DNS legítimo, lo que podría ayudar a evadir ciertas restricciones de seguridad.
 
-**Spoof Mac (--spoof-mac)**: este parámetro permite falsificar la dirección MAC en los paquetes enviados, lo que puede ayudar a evadir ciertas medidas de seguridad, como filtrados basados en MAC.
+- **Spoof Mac (--spoof-mac)**: este parámetro permite falsificar la dirección MAC en los paquetes enviados, lo que puede ayudar a evadir ciertas medidas de seguridad, como filtrados basados en MAC.
 
 Algunos firewalls o sistemas de seguridad pueden estar configurados para aceptar solo paquetes provenientes de MACs autorizadas, rechazando cualquier otra dirección. Al suplantar una MAC permitida, es posible engañar al sistema y hacer que acepte el tráfico.
 
