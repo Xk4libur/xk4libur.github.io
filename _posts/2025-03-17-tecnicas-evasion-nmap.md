@@ -49,6 +49,6 @@ En este ejemplo se envían paquetes a una IP modificando el comando para que Nma
 - **Stealth Scan (-sS)**: este parámetro es de los más usados en escaneos sigilosos y evitar la detección de los firewalls. Permite escanear los puertos de la víctima sin completar el Three-Way Handshake, siendo de esta forma invisible para el firewall.
 
 ```bash
-sudo nmap -sS -p22 <ip>
+sudo nmap -sS -p22 <IP>
 ```
 En este ejemplo se usa el **stealth scan** para escanear el puerto 22 de la víctima, este escaneo es sigiloso ya que no completa la conexión en su totalidad.
