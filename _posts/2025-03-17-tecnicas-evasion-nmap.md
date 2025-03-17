@@ -18,5 +18,8 @@ Un **Firewall** es un sistema diseñado para proteger las redes informáticas de
 
 ## Ejemplos de parámetros con Nmap para evadir Firewalls:
 
+- **MTU (--mtu)**: este parámetro conocido como “Maximum Transmission Unit” permite ajustar el tamaño de los paquetes que se envían para evitar la detección de los Firewalls. Nmap puede configurar manualmente el tamaño máximo de los paquetes para que así sean los suficientemente pequeños para pasar por el Firewall sin ser detectados.
 
-
+```bash
+nmap -p22 --mtu 8 <IP>
+```
