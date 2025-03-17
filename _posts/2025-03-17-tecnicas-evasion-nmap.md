@@ -11,3 +11,12 @@ categories:
 tags:
   - reconocimiento  
 ---
+
+Al momento de hacer pruebas de pentesting, uno de los desafíos más grandes es evitar la detección de los **Firewalls**.
+
+Un **Firewall** es un sistema diseñado para proteger las redes informáticas de posibles amenazas, para evitar este sistema, Nmap posee una variedad de técnicas de evasión que permiten a los atacantes hacer escaneos sigilosos y de esta forma evitar la detección de los Firewalls.
+
+## Ejemplos de parámetros con Nmap para evadir Firewalls:
+
+
+
