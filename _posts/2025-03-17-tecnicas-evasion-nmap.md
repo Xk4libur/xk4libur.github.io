@@ -45,3 +45,10 @@ Algunos firewalls o sistemas de seguridad pueden estar configurados para aceptar
 nmap --spoof-mac Apple <IP>
 ```
 En este ejemplo se envían paquetes a una IP modificando el comando para que Nmap use direcciones MAC aleatorias que pertenezcan a dispositivos de Apple, en este caso la MAC se elige de forma aleatoria aunque también se puede añadir la MAC de forma manual.
+
+- **Stealth Scan (-sS)**: este parámetro es de los más usados en escaneos sigilosos y evitar la detección de los firewalls. Permite escanear los puertos de la víctima sin completar el Three-Way Handshake, siendo de esta forma invisible para el firewall.
+
+```bash
+sudo nmap -sS -p22 <ip>
+```
+En este ejemplo se usa el **stealth scan** para escanear el puerto 22 de la víctima, este escaneo es sigiloso ya que no completa la conexión en su totalidad.
