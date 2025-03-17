@@ -33,8 +33,15 @@ Algunos firewalls puede bloquear paquetes a partir un tamaño estándar, pero no
 nmap --source-port 53 <IP>
 ```
 
-En este ejemplo se envían paquetes a través del **puerto 53** de la máquina atacante, de esta forma los paquetes serán recibidos por la víctima a través de este puerto.
-
 En este ejemplo, se falsifica el puerto de origen de los paquetes como si provinieran del puerto 53, pero en realidad la máquina atacante está usando otro puerto para enviarlos.
 
 Algunos firewalls pueden confiar en este tráfico y dejarlo pasar, creyendo que proviene de un servidor DNS legítimo, lo que podría ayudar a evadir ciertas restricciones de seguridad.
+
+**Spoof Mac (--spoof-mac)**: este parámetro permite falsificar la dirección MAC en los paquetes enviados, lo que puede ayudar a evadir ciertas medidas de seguridad, como filtrados basados en MAC.
+
+Algunos firewalls o sistemas de seguridad pueden estar configurados para aceptar solo paquetes provenientes de MACs autorizadas, rechazando cualquier otra dirección. Al suplantar una MAC permitida, es posible engañar al sistema y hacer que acepte el tráfico.
+
+```bash
+nmap --spoof-mac Apple <IP>
+```
+En este ejemplo se envían paquetes a una IP modificando el comando para que Nmap use direcciones MAC aleatorias que pertenezcan a dispositivos de Apple, en este caso la MAC se elige de forma aleatoria aunque también se puede añadir la MAC de forma manual.
