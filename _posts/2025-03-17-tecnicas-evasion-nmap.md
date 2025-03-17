@@ -26,3 +26,15 @@ nmap -p22 --mtu 8 <IP>
 En este ejemplo se envían paquetes con un tamaño **máximo de 8 bytes**, al ser los paquetes muy pequeños, éstos pasan desapercibidos por el firewall.
 
 Algunos firewalls puede bloquear paquetes a partir un tamaño estándar, pero no son capaces de detectar fragmentos pequeños de dichos paquetes.
+
+**Source Port (--source-port)**: este parámetro permite "simular" un envío de paquetes a través de un puerto específico, ya que puede ser que los firewalls estén configurados para recibir paquetes a través de ciertos puertos de confianza.
+
+```bash
+nmap --source-port 53 <IP>
+```
+
+En este ejemplo se envían paquetes a través del **puerto 53** de la máquina atacante, de esta forma los paquetes serán recibidos por la víctima a través de este puerto.
+
+En este ejemplo, se falsifica el puerto de origen de los paquetes como si provinieran del puerto 53, pero en realidad la máquina atacante está usando otro puerto para enviarlos.
+
+Algunos firewalls pueden confiar en este tráfico y dejarlo pasar, creyendo que proviene de un servidor DNS legítimo, lo que podría ayudar a evadir ciertas restricciones de seguridad.
