@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Introducción a Python (SIN TERMINAR)
-excerpt: "Lorem ipsum"
+excerpt: "Uno de los lenguajes de programación más populares en todo el mundo y de los más usados a nivel mundial. El lenguaje de Python."
 date: 2025-03-18
 classes: wide
 header:
@@ -42,5 +42,3 @@ Algunos ejemplos de los aforismos que tiene el Zen de Python son:
 - Lo bello es mejor que lo feo
 - Simple es mejor que complejo
 - La legibilidad importa 
-
-freferfre
