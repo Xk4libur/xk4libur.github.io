@@ -38,9 +38,14 @@ Las funciones principales del intérprete de Python son las siguientes:
 
 ## ¿Qué es el shebang en Python?
 
-El **shebang** (#!) es una línea especial que se coloca al inicio de un script en Python para indicar el intérprete con el que se debe ejecutar el script. 
+El **shebang** (#!) es una línea especial que se coloca al inicio de un script en Python para indicar al sistema operativo con intérprete se debe ejecutar el script. 
 
-Un ejemplo del shebang sería el siguiente: 
+Lo ideal es escribir el shebang de esta forma: 
+
+**#!/usr/bin/env python3**
+
+
+Un ejemplo del shebang en un archivo sería el siguiente: 
 
 ```python3
 #!/usr/bin/env python3
