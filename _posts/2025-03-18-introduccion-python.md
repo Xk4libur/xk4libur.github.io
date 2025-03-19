@@ -42,3 +42,17 @@ Algunos ejemplos de los aforismos que tiene el Zen de Python son:
 - Lo bello es mejor que lo feo
 - Simple es mejor que complejo
 - La legibilidad importa 
+
+[Link al Zen de Python](https://elpythonista.com/zen-de-python)
+
+## Características principales de Python:
+
+- **Sintaxis simple**: Python es un lenguaje muy popular por lo sencillo que es entender su sintaxis, lo que facilita a los programadores principiantes y experimentados tanto aprender como expresar conceptos complejos en menos líneas de código que en otros lenguajes.
+
+- **Lenguaje interpretado**: Python permite ejecutar el código tan rápido como se termine de escribir el propio código, debido a que es un lenguaje interpretado, el código se ejecuta línea por línea de forma directa sin necesidad de compilar.
+
+- **Multiplataforma**: Python permite ser ejecutado en una variedad de sistemas operativos así sea Windows, Linux y MacOS.
+
+- **Bibliotecas extensas**: Python cuenta con una gran cantidad de bibliotecas o librerías estándar que se encuentran disponibles para todos los usuarios.
+
+
