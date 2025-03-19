@@ -46,5 +46,15 @@ Un ejemplo del shebang sería el siguiente:
 #!/usr/bin/env python3
 print("Hola, hacker!")
 ```
+Si no incluyésemos el shebang en el código, no se podría ejecutar como si fuera un script normal, es decir, no podría ejecutar con este comando: 
+
+```bash
+./script.py
+```
+Tendría que ser solo con este comando:
+
+```python3
+python3 script.py
+```
 
 
