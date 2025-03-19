@@ -101,3 +101,4 @@ int nombreUsuario = 5;
 class MiClase:
     pass
 ```
+Un programador que usa el shebang y adapta su código a los convenios de Python son señales de que el programador es cuidadoso y profesional, así que es recomendable acostumbrarse a esta forma de programar ya que es beneficiosa a largo plazo.
