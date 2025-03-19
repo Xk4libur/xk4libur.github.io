@@ -60,5 +60,14 @@ Tendría que ser solo con este comando:
 ```bash
 python3 script.py
 ```
+## ¿Qué son los convenios de Python?
 
+Los convenios de Python son una serie de **reglas** que los programadores pueden seguir para **escribir código** Python de forma **limpia**, **legible y fácilmente mantenible** a largo plazo. 
 
+No es obligatorio seguir estas convenciones al toque, pero ayudan a que el código sea más profesional y fácilmente entendible para otros programadores. 
+
+Existen muchos convenios de Python, pero los más importantes son: 
+
+- **PEP 8**: define cómo escribir código limpio y legible en Python
+- **PEP 20**: define los principios filosóficos de Python
+- **PEP 257**: define cómo escribir comentarios y documentos en Python usando las comillas triples (""" """)
