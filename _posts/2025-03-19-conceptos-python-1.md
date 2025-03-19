@@ -44,7 +44,6 @@ Lo ideal es escribir el shebang de esta forma:
 
 **#!/usr/bin/env python3**
 
-
 Un ejemplo del shebang en un archivo sería el siguiente: 
 
 ```python3
