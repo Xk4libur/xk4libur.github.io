@@ -24,4 +24,14 @@ Las funciones principales del intérprete de Python son las siguientes:
 
 - **Modo interactivo**: el intérprete puede usarse en modo interactivo, lo que permite un entorno ideal para que los principiantes puedan aprender y explorar el lenguaje, este modo es ideal para probar comandos sin tener que escribir programas completos. Este modo permite ejecutar comandos tan rápido como se terminen de escribir. 
 
-- **Modo de script**: este modo es usado por los programadores más experimentados, se usa para desarrollar programas complejos, en este modo los programas son guardados en extension "**.py**" 
+- **Modo de script**: este modo es usado por los programadores más experimentados, se usa para desarrollar programas complejos, en este modo los programas son guardados en extension "**.py**".
+
+# Ejemplos sencillos de operaciones básicas en el intérprete de Python
+
+![](/assets/images/python/2.png)
+
+![](/assets/images/python/3.png)
+
+![](/assets/images/python/4.png)
+
+![](/assets/images/python/5.png)
