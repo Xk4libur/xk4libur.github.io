@@ -18,4 +18,10 @@ El intérprete de Python es el **corazón del lenguaje** de programación de Pyt
 
 ![](/assets/images/python/1.png)
 
+Las funciones principales del intérprete de Python son las siguientes: 
 
+- **Ejecución de código**: el intérprete ejecuta el código escrito línea por línea, permitiendo a los programadores probar fragmentos de código de forma más sencilla. 
+
+. **Modo interactivo**: el intérprete puede usarse en modo interactivo, lo que permite un entorno ideal para que los principiantes puedan aprender y explorar el lenguaje, este modo es ideal para probar comandos sin tener que escribir programas completos. Este modo permite ejecutar comandos tan rápido como se terminen de escribir. 
+
+· **Modo de script**: este modo es usado por los programadores más experimentados, se usa para desarrollar programas complejos, en este modo los programas son guardados en extension ".py" 
