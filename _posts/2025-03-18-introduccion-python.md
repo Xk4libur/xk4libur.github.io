@@ -43,7 +43,9 @@ Algunos ejemplos de los aforismos que tiene el Zen de Python son:
 - Simple es mejor que complejo
 - La legibilidad importa 
 
-[**Link al Zen de Python**](https://elpythonista.com/zen-de-python)
+<div align="center>
+[**- Link al Zen de Python**](https://elpythonista.com/zen-de-python)
+</div>
 
 ## Características principales de Python:
 
