@@ -68,6 +68,22 @@ No es obligatorio seguir estas convenciones al toque, pero ayudan a que el códi
 
 Existen muchos convenios de Python, pero los más importantes son: 
 
-- **PEP 8**: define cómo escribir código limpio y legible en Python
-- **PEP 20**: define los principios filosóficos de Python
-- **PEP 257**: define cómo escribir comentarios y documentos en Python usando las comillas triples (""" """)
+- **PEP 8**: define cómo escribir código limpio y legible en Python.
+- **PEP 20**: define los principios filosóficos de Python.
+- **PEP 257**: define cómo escribir comentarios y documentos en Python usando las comillas triples (""" """).
+
+## ¿Convenio de nomenclaturas de Python?
+
+Cuando se escribe código en Python, es importante **seguir un estándar** de nombres para que sepamos diferenciar bien que es cada cosa. 
+En Python existen diferentes formas para **nombrar variables, funciones, clases y constantes**. 
+
+- **snake_case**: se usa en nombres de variables y funciones, este estándar se usa con todo en minúsculas y con guiones bajos 
+
+**Código de ejemplo de "snake_case"**:
+
+```bash
+nombre_usuario = "xK4libur"  # Variable
+def obtener_datos():  # Función
+    pass
+```
+
