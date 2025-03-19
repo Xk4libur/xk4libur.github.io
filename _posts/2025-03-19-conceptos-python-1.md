@@ -57,7 +57,7 @@ Si no incluyésemos el shebang en el código, no se podría ejecutar como si fue
 ```
 Tendría que ser solo con este comando:
 
-```python3
+```bash
 python3 script.py
 ```
 
