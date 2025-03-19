@@ -1,8 +1,8 @@
 ---
 layout: single
-title: Introducción a Python (SIN TERMINAR)
+title: Introducción a Python
 excerpt: "Uno de los lenguajes de programación más populares en todo el mundo y de los más usados a nivel mundial. El lenguaje de Python."
-date: 2025-03-18
+date: 2025-03-19
 classes: wide
 header:
   teaser: /assets/images/slae32.png
