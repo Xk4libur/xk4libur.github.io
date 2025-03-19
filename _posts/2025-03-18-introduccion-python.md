@@ -43,7 +43,7 @@ Algunos ejemplos de los aforismos que tiene el Zen de Python son:
 - Simple es mejor que complejo
 - La legibilidad importa 
 
-<div align="center>
+<div align="center">
 [**- Link al Zen de Python**](https://elpythonista.com/zen-de-python)
 </div>
 
