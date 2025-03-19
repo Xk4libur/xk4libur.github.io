@@ -12,4 +12,10 @@ tags:
   - python
 ---
 
-prueba
+## El intérprete de Python
+
+El intérprete de Python es el **corazón del lenguaje** de programación de Python, es el motor que ejecuta el código proporcionado por los programadores. En otras palabras es el programa que lee y ejecuta el código Python en tiempo real.
+
+![](/assets/images/python/1.png)
+
+
