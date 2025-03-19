@@ -86,4 +86,18 @@ nombre_usuario = "xK4libur"  # Variable
 def obtener_datos():  # Función
     pass
 ```
+- **camelCase**: **NO** se usa en **Python**, pero si se usa Java y JavaScript, el primer carácter de la primera palabra en minúscula, y los primeros caractéres de las siguientes palabras en mayúscula.
 
+**Código de ejemplo de "camelcase"**:
+
+```bash
+int nombreUsuario = 5;
+```
+- **PascalCase**: tambien se le llama "UpperCamelCase", en este caso todas las palabras comienzas en mayúscula, y se usa para nombres de clases en Python.
+
+**Código de ejemplo de "Pascalcase"**:
+
+```bash
+class MiClase:
+    pass
+```
