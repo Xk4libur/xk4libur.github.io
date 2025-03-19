@@ -55,4 +55,27 @@ Algunos ejemplos de los aforismos que tiene el Zen de Python son:
 
 - **Bibliotecas extensas**: Python cuenta con una gran cantidad de bibliotecas o librerías estándar que se encuentran disponibles para todos los usuarios.
 
+## Diferencias entre Python 2 y Python 3
+
+Python cuenta con varias versiones principales como lenguaje de programación, **Python 2** y **Python 3**, cada una cuenta con características propias y diferencias notables.
+
+- **División de números enteros**: mientras que Python 2 siempre devuelve números enteros en las divisiones, Python 3 devuelve valores con decimales.
+
+- **Soporte**: mientras que Python 3 sigue recibiendo soporte de actualizaciones y seguridad, Python 2 lleva sin soporte desde enero de 2020.
+
+- **Librerías actualizadas**: Python 3 ha recibido librerías reescritas y actualizadas de Python 2 para que puedan funcionar en Python 3.
+
+Si bien es cierto de que Python 2 ya no se usa, es conveniente entender una base mínima de esta versión de Python, ya que puede ser que hayan exploits que nos puedan servir y que estén escritos en Python 2 y no en Python 3.
+
+## ¿Qué es PIP?
+
+**Pip** es el instalador de paquetes de Python, viene de (Pip Install Packages) y es usado para instalar, actualizar y gestionar las librerías desde el repositorio oficial. 
+
+Python usa paquetes para aumentar su funcionalidad como lenguaje de programación, los paquetes añaden funciones y módulos que Python no tiene de base. 
+
+Esto permite a Python la capacidad de adaptarse a las diferentes circunstancias dependiendo de que tenga que programar, además los paquetes permiten usar funciones específicas para que no se tenga que programar todo desde 0.
+
+**Python 3** usa **Pip 3**, esta versión de Pip sigue teniendo soporte y actualizaciones para soportar librerías modernas y seguras.
+
+**Python 2** usa **Pip 2**, esta versión ya no tiene soporte y es vulnerable a fallas de seguridad y sufre de fallos constantemente con los paquetes que se instalan, ya que no soporta nuevas versiones de los mismos.
 
