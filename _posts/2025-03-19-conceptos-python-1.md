@@ -26,7 +26,7 @@ Las funciones principales del intérprete de Python son las siguientes:
 
 - **Modo de script**: este modo es usado por los programadores más experimentados, se usa para desarrollar programas complejos, en este modo los programas son guardados en extension "**.py**".
 
-# Ejemplos sencillos de operaciones básicas en el intérprete de Python
+### Ejemplos sencillos de operaciones básicas en el intérprete de Python
 
 ![](/assets/images/python/2.png)
 
