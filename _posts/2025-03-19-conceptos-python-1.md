@@ -91,7 +91,7 @@ def obtener_datos():  # Función
 **Código de ejemplo de "camelcase"**:
 
 ```bash
-int nombreUsuario = 5;
+int nombreUsuario = 5; <-- Este codigo es Java
 ```
 - **PascalCase**: tambien se le llama "UpperCamelCase", en este caso todas las palabras comienzas en mayúscula, y se usa para nombres de clases en Python.
 
