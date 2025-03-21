@@ -16,11 +16,13 @@ tags:
 
 Las **variables** en Python son algo así como nombres que hacen referencia a un dato. Las variables son muy importantes en Python porque al asignar datos a las variables, podemos usarlas en diferentes partes del código.
 
-En este ejemplo, la variable es "mensaje" ya que hace referencia a la string "Mensaje 1":
+En este ejemplo, la variables son "a" y "b" ya que hace referencia a los numeros que pueden cambiar para hacer la operatoria:
 
 ```bash
-mensaje = "Mensaje 1"
-print(mensaje)
+a = 2
+b = 10
+resultado = a + b
+print(resultado)
 ```
 
 ## ¿Qué son las strings o cadenas?
