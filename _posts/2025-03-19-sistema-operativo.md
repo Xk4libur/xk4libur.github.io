@@ -79,3 +79,4 @@ Seleccionamos para que sistema operative queremos instalar, en mi caso será par
 
 ![](/assets/images/sistema-operativo/12.png)
 
+En el caso de Windows, hacemos doble clic en el archivo de instalación, y solo hacemos clic en **Siguiente** y **Aceptar** o **Instalar**.
