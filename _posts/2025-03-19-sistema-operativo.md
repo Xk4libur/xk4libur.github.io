@@ -29,9 +29,11 @@ No solo existen sistemas operativos como Windows, Linux o macOS, también existe
 Algunos ejemplos son: 
 
 - **Windows**:
+
 ![](/assets/images/sistema-operativo/1.png)
 
 - **Linux**:
+
 ![](/assets/images/sistema-operativo/2.png)
 
 
