@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Conceptos básicos de Python - Parte 1
+title: Conceptos básicos de Python
 excerpt: "En Python hay concetos básicos que hay que entender antes de ponerse a programar scripts o herramientas complejas, esta es una de las partes que explica algunos conceptos básicos de Python."
 date: 2025-03-19
 classes: wide
