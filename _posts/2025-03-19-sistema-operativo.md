@@ -36,7 +36,15 @@ Algunos ejemplos son:
 
 ![](/assets/images/sistema-operativo/2.png)
 
+- **macOS**:
 
-- **Windows**
-- **Windows**
-- **Windows**
+![](/assets/images/sistema-operativo/3.png)
+
+- **Android**:
+
+![](/assets/images/sistema-operativo/4.png)
+
+- **iOS**:
+
+![](/assets/images/sistema-operativo/5.png)
+
