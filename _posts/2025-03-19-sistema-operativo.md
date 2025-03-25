@@ -7,9 +7,9 @@ classes: wide
 header:
   teaser: /assets/images/slae32.png
 categories:
-  - sistema operativo
+  - Linux
 tags:
-  - sistema operativo
+  - Linux
 ---
 
 El **sistema operativo es una de las 3 capas** que conforman un ordenador: 
@@ -49,4 +49,7 @@ Algunos ejemplos son:
 - **iOS**:
 
 ![](/assets/images/sistema-operativo/5.png)
+
+
+
 
