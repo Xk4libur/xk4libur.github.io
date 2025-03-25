@@ -24,7 +24,9 @@ Cada una de las 3 capas realiza una función esencial dentro del ordenador, la f
 
 No solo existen sistemas operativos como Windows, Linux o macOS, también existen sistemas operativos enfocados a sectores en particular para un uso específico.
 
-**Sistemas operativos de uso general**: son los sistemas operativos más usados en el mundo doméstico, se usan en ordenadores personales, servidores, y dispositivos móviles.
+### Sistemas operativos de uso general: 
+
+Son los sistemas operativos más usados en el mundo doméstico, se usan en ordenadores personales, servidores, y dispositivos móviles.
 
 Algunos ejemplos son: 
 
