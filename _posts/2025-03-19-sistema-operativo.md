@@ -30,7 +30,7 @@ Algunos ejemplos son:
 
 - **Windows**:
 
-![](/assets/images/sistema-operativo//1.jpg)
+![](/assets/images/sistema-operativo/1.jpg)
 
 
 - **Windows**
