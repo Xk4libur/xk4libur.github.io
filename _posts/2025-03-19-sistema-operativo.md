@@ -79,4 +79,18 @@ Seleccionamos para que sistema operative queremos instalar, en mi caso será par
 
 ![](/assets/images/sistema-operativo/12.png)
 
-En el caso de Windows, hacemos doble clic en el archivo de instalación, y solo hacemos clic en **Siguiente** y **Aceptar** o **Instalar**.
+En el caso de Windows, hacemos doble clic en el archivo de instalación, y solo hacemos clic en **Siguiente** y **Aceptar** o **Instalar**:
+
+![](/assets/images/sistema-operativo/13.png)
+
+
+## Instalación de Ubuntu en Virtualbox
+
+Para descargar la ISO de Ubuntu, nos dirigimos a la siguiente página web:
+
+[**- Link a la web Ubuntu**](https://ubuntu.com/download/desktop)
+
+En mi caso aparece la versión de **Ubuntu 24.04.2 LTS**, este caso es la **“Long Time Support”** o también llamado la versión de “Soporte de Largo Termino”, esta versión es la versión que tiene más tiempo de actualizaciones de seguridad y mantenimiento, lo que ayuda a que la distribución se pueda usar durante mucho tiempo.
+
+![](/assets/images/sistema-operativo/14.png)
+
