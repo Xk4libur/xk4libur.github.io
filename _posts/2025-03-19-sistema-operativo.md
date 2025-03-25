@@ -12,4 +12,10 @@ tags:
   - sistema operativo
 ---
 
-Lorem ipsum
+El **sistema operativo es una de las 3 capas** que conforman un ordenador: 
+
+- **Software**: (navegador, explorador de archivos, etc.)
+- **Sistema operativo**: (Windows, Linux)
+- **Hardware**: (componentes físicos del ordenador)
+
+Cada una de las 3 capas realiza una función esencial dentro del ordenador, la función del sistema operativo es servir de puente o intermediario entre la capa del software y la capa del hardware, proporcionando al software los recursos que necesita para funcionar, y estos recursos los recoge de la capa del hardware.
