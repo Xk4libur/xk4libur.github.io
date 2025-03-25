@@ -51,5 +51,31 @@ Algunos ejemplos son:
 ![](/assets/images/sistema-operativo/5.png)
 
 
+## ¿Qué es Linux?
 
+Linux es un núcleo de código abierto a partir del cual se pueden construir sistemas operativos basados en Linux, existen muchos sistemas operativos basados en el kernel de Linux, y a dichos sistemas operativos reciben el nombre de distribuciones de Linux.
+
+Una de las distribuciones de Linux más populares es **Ubuntu**, es un sistema operativo basado en Debian, y es de las más fáciles de instalar y usar:
+
+![](/assets/images/sistema-operativo/6.png)
+
+## Como instalar Virtualbox
+
+Virtualbox es un software que permite crear máquinas virtuales para simular sistemas operativos, de tal forma que podemos usar otros sistemas operativos sin que el nuestro sea afectado.
+
+![](/assets/images/sistema-operativo/7.png)
+
+Para instalar Virtualbox, simplemente nos dirigimos al sitio web oficial, para eso buscamos Virtualbox en el navegador y nos dirigimos a la página web:
+
+![](/assets/images/sistema-operativo/8.png)
+
+![](/assets/images/sistema-operativo/10.png)
+
+Hacemos clic en “Descargas” para descargar el archivo para instalar el programa:
+
+![](/assets/images/sistema-operativo/11.png)
+
+Seleccionamos para que sistema operative queremos instalar, en mi caso será para Windows, aunque también se puede hacer para Linux y macOS:
+
+![](/assets/images/sistema-operativo/12.png)
 
