@@ -7,7 +7,7 @@ classes: wide
 header:
  teaser_home_page: true
 categories:
-  - Linux
+  - Kali Linux
 tags:  
   - custom
 ---

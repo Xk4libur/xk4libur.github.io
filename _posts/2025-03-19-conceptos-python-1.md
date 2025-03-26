@@ -7,9 +7,9 @@ classes: wide
 header:
   teaser: /assets/images/slae32.png
 categories:
-  - python
+  - Python
 tags:
-  - python
+
 ---
 
 ## El intérprete de Python

@@ -7,9 +7,8 @@ classes: wide
 header:
   teaser: /assets/images/slae32.png
 categories:
-  - python
+  - Python
 tags:
-  - python
 ---
 ## ¿Qué es Python?
 
