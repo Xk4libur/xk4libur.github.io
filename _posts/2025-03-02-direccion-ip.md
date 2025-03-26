@@ -6,7 +6,7 @@ classes: wide
 header:
   teaser: /assets/images/slae32.png
 categories:
-  - linux
+  - Linux
 tags:
 
   - dirección ip

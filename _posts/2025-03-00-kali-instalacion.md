@@ -7,7 +7,7 @@ classes: wide
 header:
  teaser_home_page: true
 categories:
-  - linux
+  - Linux
 tags:  
   - custom
 ---
