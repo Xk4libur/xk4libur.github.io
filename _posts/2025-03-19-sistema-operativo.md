@@ -90,7 +90,69 @@ Para descargar la ISO de Ubuntu, nos dirigimos a la siguiente página web:
 
 [**- Link a la web Ubuntu**](https://ubuntu.com/download/desktop)
 
-En mi caso aparece la versión de **Ubuntu 24.04.2 LTS**, este caso es la **“Long Time Support”** o también llamado la versión de “Soporte de Largo Termino”, esta versión es la versión que tiene más tiempo de actualizaciones de seguridad y mantenimiento, lo que ayuda a que la distribución se pueda usar durante mucho tiempo.
+En mi caso aparece la versión de **Ubuntu 24.04.2 LTS**, este caso es la **“Long Time Support”** o también llamado la versión de “Soporte de Largo Termino”, esta versión es la que tiene más tiempo de actualizaciones de seguridad y mantenimiento, lo que ayuda a que la distribución se pueda usar durante mucho tiempo.
 
 ![](/assets/images/sistema-operativo/14.png)
+
+Una vez descargada la imagen ISO de Ubuntu, hacemos clic en “Nueva” para empezar a crear una máquina desde 0:
+
+![](/assets/images/sistema-operativo/15.png)
+
+Le ponemos un nombre a la máquina y le añadimos la imagen ISO de Ubuntu:
+
+![](/assets/images/sistema-operativo/16.png)
+
+Añadimos recursos del sistema a la máquina, como la memoria RAM, la cantidad de núcleos de la CPU y la capacidad de almacenamiento del disco para la máquina:
+
+![](/assets/images/sistema-operativo/17.png)
+
+![](/assets/images/sistema-operativo/18.png)
+
+Para aumentar el rendimiento de la máquina, añadimos memoria de video y activamos la aceleración 3D:
+
+![](/assets/images/sistema-operativo/19.png)
+
+Una vez hecho esto, iniciamos la máquina:
+
+![](/assets/images/sistema-operativo/20.png)
+
+Seleccionamos el idioma principal:
+
+![](/assets/images/sistema-operativo/21.png)
+
+Seleccionamos el idioma del teclado:
+
+![](/assets/images/sistema-operativo/22.png)
+
+Nos preguntará si queremos conectarnos a Internet, en nuestro caso le decimos que no será necesario:
+
+![](/assets/images/sistema-operativo/23.png)
+
+Ubuntu nos preguntará si queremos instalar el sistema operativo en la máquina o usarlo como una distribución en Live, es decir, sin instalarlo. En nuestro caso, lo instalaremos desde 0 ya que estamos usando una máquina virtual:
+
+![](/assets/images/sistema-operativo/24.png)
+
+Tambien nos preguntará si queremos instalar software adicional y actualizaciones del sistema, este paso nos ahorrará tiempo después de la instalación, entonces marcamos las 2 opciones:
+
+![](/assets/images/sistema-operativo/25.png)
+
+Antes de instalarlo, nos preguntará sobre las particiones que queremos hacer en el disco duro de la máquina virtual, en este caso, elegimos la primera opción ya que es la más sencilla de todas y nos evitará tener que hacer las particiones de forma manual:
+
+![](/assets/images/sistema-operativo/26.png)
+
+Incluimos el nombre del usuario, así como el nombre de la máquina y una contraseña para el usuario:
+
+![](/assets/images/sistema-operativo/27.png)
+
+Elegimos la zona horaria:
+
+![](/assets/images/sistema-operativo/28.png)
+
+Antes de finalizar al instalación, nos aparecerá un pequeño resumen de las modificaciones que se harán en el sistema:
+
+![](/assets/images/sistema-operativo/29.png)
+
+Y finalmente, la instalación de Ubuntu ha terminado:
+
+![](/assets/images/sistema-operativo/30.png)
 
