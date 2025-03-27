@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Definición de la terminal y shell en Linux (SIN TERMINAR)
+title: Definición de la terminal y shell en Linux
 excerpt: "La terminal y la shell de Linux son componentes básicos del sistema, sin ellos no se podría hacer nada, a menos que el sistema operativo tuviera una interfaz gráfica con todas las opciones y funciones necesarias para todos los casos como en Windows."
 date: 2025-03-27
 classes: wide
