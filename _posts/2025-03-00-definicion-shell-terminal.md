@@ -37,18 +37,18 @@ Al igual que en la Shell, también existen diferentes modelos de emuladores de t
 
 ![](/assets/images/shell-terminal/3.png)
 
-- Konsole
+- **Konsole**:
 
 ![](/assets/images/shell-terminal/4.png)
 
-- Alacritty
+- **Alacritty**:
 
 ![](/assets/images/shell-terminal/5.png)
 
-- Kitty
+- **Kitty**:
 
 ![](/assets/images/shell-terminal/6.png)
 
-- Terminator
+- **Terminator**:
 
 ![](/assets/images/shell-terminal/7.png)
