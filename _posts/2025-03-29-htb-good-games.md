@@ -131,4 +131,24 @@ Aunque no nos devuelve los valores que queremos, si que nos dice que podemos enc
 
 ![](/assets/images/htb-good-games/32.png)
 
+Para que nos devuelve los valores de los datos, es decir, el **nombre de usuario**, el **id**, etc…, le incluimos estos parámetros:
+
+![](/assets/images/htb-good-games/33.png)
+
+Esto es lo que nos devuelve:
+
+![](/assets/images/htb-good-games/34.png)
+
+Nos aparece el nombre de usuario que es ‘admin’ y un conjunto de caracteres aleatorios que puede ser la contraseña pero en un formato de MD5:
+
+![](/assets/images/htb-good-games/35.png)
+
+Si copiamos la contraseña en formato MD5 en google, nos aparecerá la contraseña real en texto plano:
+
+![](/assets/images/htb-good-games/36.png)
+
+Ahora que ya tenemos las credenciales reales en texto plano, podemos ingresar dentro de la web:
+
+![](/assets/images/htb-good-games/37.png)
+
 
