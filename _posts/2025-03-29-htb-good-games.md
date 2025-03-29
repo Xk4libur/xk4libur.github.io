@@ -223,7 +223,7 @@ Lo primero que haremos será hacer un tratamiento de la tty, para que no explote
 
 ```bash
 script /dev/null -c bash
-ctrl + z
+ctrl + z <-- esto es una combinación de teclas, no es un comando en sí
 stty raw -echo;fg
                   reset xterm
 ```
