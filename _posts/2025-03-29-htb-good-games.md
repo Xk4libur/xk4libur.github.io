@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Good Games - Hack The Box
+title: Good Games - Hack The Box (SIN TERMINAR)
 excerpt: "Lorep ipsum."
 date: 2025-03-29
 classes: wide
@@ -91,6 +91,44 @@ Al ingresar dentro del dominio, veremos lo siguiente:
 
 ![](/assets/images/htb-good-games/20.png)
 
+Es otro panel de login, en este caso debemos obtener credenciales válidas si queremos seguir.
 
+Lo que haremos para proseguir, será la solicitud que usamos antes, pero la usaremos en la opción del **Repeater** de **Burp Suite** para poder ver el código de la web y ver los cambios que hay mientras avanzamos:
+
+![](/assets/images/htb-good-games/21.png)
+
+Si intentamos ver el nombre de la base de datos por medio de este comando, podremos ver que: 
+
+![](/assets/images/htb-good-games/22.png)
+
+No ocurre nada, así que vamos a filtrar por el número de columnas que tiene la base de datos a ver si conseguimos algo de información sobre los usuarios:
+
+![](/assets/images/htb-good-games/25.png)
+
+Si en la barra inferior de la derecha añadimos la palabra "welcome", podremos saber cuando hay una cambio significativo en la web:
+
+![](/assets/images/htb-good-games/26.png)
+
+De hecho, podemos ver que ya tenemos un match, ya que nos aparece este detalle:
+
+![](/assets/images/htb-good-games/27.png)
+
+Esto nos dá el nombre de la base de datos ‘main’, como ya sabemos el nombre de la base de datos, ya podemos empezar a sacarle los datos que queramos, empezando por la cantidad de tablas que tiene:
+
+![](/assets/images/htb-good-games/28.png)
+
+![](/assets/images/htb-good-games/29.png)
+
+Nos devuelve muchas tablas en un formato que no es cómodo de leer, pero lo importante es lo que se encuentra al final de todo esto:
+
+![](/assets/images/htb-good-games/30.png)
+
+Hay una tabla llamada **user**, y es de ahí de donde sacaremos todos los datos:
+
+![](/assets/images/htb-good-games/31.png)
+
+Aunque no nos devuelve los valores que queremos, si que nos dice que podemos encontrar en la tabla:
+
+![](/assets/images/htb-good-games/32.png)
 
 
