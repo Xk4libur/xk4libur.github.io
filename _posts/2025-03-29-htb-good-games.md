@@ -151,4 +151,84 @@ Ahora que ya tenemos las credenciales reales en texto plano, podemos ingresar de
 
 ![](/assets/images/htb-good-games/37.png)
 
+Lo primero que vemos es esta cantidad de dinero que todo deseariamos tener:
+
+![](/assets/images/htb-good-games/38.png)
+
+Si nos dirigimos a la sección de ajustes, nos encontraremos con esta paneles que nos permiten cambiar los datos del usuario actual de la web:
+
+![](/assets/images/htb-good-games/39.png)
+
+![](/assets/images/htb-good-games/40.png)
+
+Si añadimos datos de usuario improvisados, veremos que se guardan en la web:
+
+![](/assets/images/htb-good-games/41.png)
+
+![](/assets/images/htb-good-games/42.png)
+
+![](/assets/images/htb-good-games/43.png)
+
+Un detalle importante de esta máquina es que es vulnerable al **Server Side Attack** o (ataques del lado del servidor), podemos probar un tipo de ataque que es **SSTI** o **Server Side Template Injection**, el cual podemos tratar de inyectar un código o comando para ver si el servidor lo interpreta:
+
+![](/assets/images/htb-good-games/44.png)
+
+Podemos ver que nos interpreta la operación, con lo cual el servidor es vulnerable al SSTI:
+
+![](/assets/images/htb-good-games/45.png)
+
+Ya que podemos ejecutar comandos en el servidor sabiendo que éste lo interpreta, podemos usar esta función (Remote Command Execution) para ejecutar una serie de comandos que nos pueden ser de ayuda:
+
+![](/assets/images/htb-good-games/46.png)
+
+![](/assets/images/htb-good-games/47.png)
+
+![](/assets/images/htb-good-games/48.png)
+
+Si tratamos de ver el id que tenemos en el servidor, veremos que somo el usuario **root**, lo cual es interesante:
+
+![](/assets/images/htb-good-games/49.png)
+
+![](/assets/images/htb-good-games/50.png)
+
+Si vemos la IP que nos muestra, podemos ver que no es la misma que la de la máquina víctima, creo que es porque estamos usando un contenedor de Docker:
+
+![](/assets/images/htb-good-games/51.png)
+
+Vamos a aprovechar que el servidor interpreta código para lograr acceso a la máquina víctima por medio de una reverse shell, primero creamos un archivo html con el código bash de la shell:
+
+![](/assets/images/htb-good-games/52.png)
+
+Para que el servidor tenga acceso al archivo, podemos crear un servidor http en python con este comando:
+
+![](/assets/images/htb-good-games/53.png)
+
+Nos ponemos en escucha por el puerto que hemos incluido en el archivo de la reverse shell:
+
+![](/assets/images/htb-good-games/54.png)
+
+Y ahora ejecutamos incluimos este código en la instrucción del servidor:
+
+![](/assets/images/htb-good-games/55.png)
+
+![](/assets/images/htb-good-games/56.png)
+
+Y ahora solo queda ver la magia:
+
+![](/assets/images/htb-good-games/57.png)
+
+Ya tenemos acceso al contenedor de **Docker** siendo usuario **root**.
+
+Lo primero que haremos será hacer un tratamiento de la tty, para que no explote o falle durante la resolución de la máquina:
+
+```bash
+script /dev/null -c bash
+ctrl + z
+stty raw -echo;fg
+                  reset xterm
+```
+
+
+
+
 
