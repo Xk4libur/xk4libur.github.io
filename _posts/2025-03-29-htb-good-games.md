@@ -69,4 +69,28 @@ Ahora enviamos la solicitud y nos vamos pa' dentro de la web:
 
 ![](/assets/images/htb-good-games/14.png)
 
+Una vez dentro de la web, podemos ver que somos el usuario **admin**:
+
+![](/assets/images/htb-good-games/15.png)
+
+No podemos hacer mucho en esta sección de la web, aunque si seleccionamos el icono del engranaje pasará esto:
+
+![](/assets/images/htb-good-games/16.png)
+
+![](/assets/images/htb-good-games/17.png)
+
+La web nos reenvía a otro sitio web al que no podemos acceder de primeras, para poder acceder a esta web, incluimos el nombre del dominio junto con la IP de la máquina víctima en el archivo **/etc/hosts**:
+
+![](/assets/images/htb-good-games/18.png)
+
+Si probamos a lanzar un ping al nombre de dominio incluido en el **/etc/hosts**, podemos ver que tenemos conexión, con lo cual, podemos proceder:
+
+![](/assets/images/htb-good-games/19.png)
+
+Al ingresar dentro del dominio, veremos lo siguiente:
+
+![](/assets/images/htb-good-games/20.png)
+
+
+
 
