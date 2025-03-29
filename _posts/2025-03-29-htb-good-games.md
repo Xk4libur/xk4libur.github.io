@@ -228,6 +228,54 @@ stty raw -echo;fg
                   reset xterm
 ```
 
+Si nos dirigimos al directorio **/home**, veremos que hay un directorio para el usuario “augustus”, en el cual dentro se encuentra la flag del usuario no privilegiado:
+
+![](/assets/images/htb-good-games/62.png)
+
+![](/assets/images/htb-good-games/63.png)
+
+Si vemos la dirección IP del contenedor veremos lo siguiente:
+
+![](/assets/images/htb-good-games/64.png)
+
+Quiero pensar que la máquina real tiene una IP casi igual a esta, así que vamos a probar a hacer un ping a la siguiente IP **172.190.0.1**:
+
+![](/assets/images/htb-good-games/65.png)
+
+Vemos que tenemos conexión con la máquina víctima, vamos a intentar ganar acceso usando ssh, solo por ver si funciona:
+
+![](/assets/images/htb-good-games/66.png)
+
+Al final, funcionó:
+
+![](/assets/images/htb-good-games/67.png)
+
+Vamos a probar algo a ver si funciona, vamos a crear un archivo de texto siendo root en el directorio de augustus:
+
+![](/assets/images/htb-good-games/68.png)
+
+Si volvemos a iniciar sesión como usuario augustus, y vemos a su directorio de trabajo, podemos ver que el archivo de texto que hemos creado anteriormente existe:
+
+![](/assets/images/htb-good-games/69.png)
+
+Si en el directorio del usuario augustus ocurre lo mismo siendo tanto el usuario root como el usuario augustus, podemos copiar el binario de la bash siendo root y asignarle permisos SUID, para luego ejecutar dicho binario siendo augustus y así poder llegar a ser root pero dentro de la máquina
+
+Copiamos el binario de la bash:
+
+![](/assets/images/htb-good-games/70.png)
+
+Asignmaos los permisos SUID correspondientes al binario:
+
+![](/assets/images/htb-good-games/71.png)
+
+Y subimos pa` la cima:
+
+![](/assets/images/htb-good-games/73.png)
+
+![](/assets/images/htb-good-games/74.png)
+
+
+
 
 
 
