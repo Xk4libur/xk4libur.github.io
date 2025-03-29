@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Good Games - Hack The Box (SIN TERMINAR)
-excerpt: "Lorep ipsum."
+title: Good Games - Hack The Box
+excerpt: "Máquina interesante que combina SQL Injection con escalado de privilegios y saltar de un contenedor de Docker hacia la máquina real para proceder con la explotación."
 date: 2025-03-29
 classes: wide
 header:
