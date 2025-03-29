@@ -15,4 +15,7 @@ tags:
   - sql injection
 ---
 
-Prueba
+Empezamos haciendo un ping a la máquina víctima para saber si está en línea:
+ 
+![](/assets/images/htb-good-games/1.png)
+
