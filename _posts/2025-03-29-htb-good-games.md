@@ -35,4 +35,38 @@ Para ver el contenido de la web, copiamos la IP de la máquina víctima en el na
 
 Parece ser que el contenido de la web está relacionado con videojuegos, y algo que me llama la atención es que hay un logo con forma de usuario en la parte superior derecha:
 
+![](/assets/images/htb-good-games/5.png)
+
+Al seleccionar el icono, nos aparecerá esto:
+
+![](/assets/images/htb-good-games/6.png)
+
+Parece ser un panel de login ingresar credenciales para iniciar sesión en la web, esto me huele mucho a **SQL Injection**, así que vamos a iniciar el Burpsuite para proceder con la explotación:
+
+![](/assets/images/htb-good-games/7.png)
+
+Incluimos unas credenciales improvisadas, pero antes de enviarlas, interceptamos con Burpsuite para poder editar la solicitud:
+
+![](/assets/images/htb-good-games/8.png)
+
+![](/assets/images/htb-good-games/9.png)
+
+Aquí podemos ver la solicitud interceptada por Burpsuite, al igual que su contenido como las credenciales incluidas anteriormente:
+
+![](/assets/images/htb-good-games/10.png)
+
+![](/assets/images/htb-good-games/11.png)
+
+En la línea 15 podemos ver el correo y la contraseña que hemos puesto antes, lo que haremos será una inyección sql básica para evitar poder acceder a la web, lo haremos de la siguiente manera:
+
+![](/assets/images/htb-good-games/12.png)
+
+Una explicación sencilla de como funciona esto por detrás es que al pasarle la condición de **1=1**, como esta condición siempre es verdadera y al comentar la contraseña por el uso de los guiones, nos permite ingresar a la web aunque no tengamos las credenciales válidas.
+
+Ahora enviamos la solicitud y nos vamos pa' dentro de la web:
+
+![](/assets/images/htb-good-games/13.png)
+
+![](/assets/images/htb-good-games/14.png)
+
 
