@@ -22,15 +22,15 @@ Una solicitud web es una forma en la que el navegador pide información a un ser
 
 ## ¿Como funciona la comunicación a través del protocol HTTP?
 
-- 1. El navegador del usuario envía una solicitud al servidor web de destino:
+- El navegador del usuario envía una solicitud al servidor web de destino:
 
 ![](/assets/images/web-requests/1.png)
 
-- 2. El navegador recibe la solicitud y la procesa:
+- El navegador recibe la solicitud y la procesa:
 
 ![](/assets/images/web-requests/2.png)
 
-- 3. El servidor web envía una respuesta HTTP al navegador del usuario:
+- El servidor web envía una respuesta HTTP al navegador del usuario:
 
 ![](/assets/images/web-requests/3.png)
 
