@@ -26,6 +26,11 @@ Una solicitud web es una forma en la que el navegador pide información a un ser
 
 ![](/assets/images/web-requests/1.png)
 
+- 2. El navegador recibe la solicitud y la procesa:
 
-- 2. Post
+![](/assets/images/web-requests/2.png)
+
+- 3. El servidor web envía una respuesta HTTP al navegador del usuario:
+
+![](/assets/images/web-requests/3.png)
 
