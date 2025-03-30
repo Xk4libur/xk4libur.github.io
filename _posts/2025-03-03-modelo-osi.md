@@ -8,7 +8,7 @@ header:
 categories:
   - Redes
 tags:
-  - capas
+  - Capas
 ---
 
 ## ¿Qué es el modelo OSI?

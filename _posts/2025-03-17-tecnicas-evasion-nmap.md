@@ -9,7 +9,7 @@ header:
 categories:
   - Nmap
 tags:
-  - reconocimiento  
+  - Reconocimiento  
 ---
 
 Al momento de hacer pruebas de pentesting, uno de los desafíos más grandes es evitar la detección de los **Firewalls**.

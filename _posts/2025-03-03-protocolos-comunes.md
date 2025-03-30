@@ -8,8 +8,8 @@ header:
 categories:
   - Protocolos
 tags:
-  - tcp
-  - udp
+  - TCP
+  - UDP
 ---
 
 ## ¿Qué es el protocolo TCP?
