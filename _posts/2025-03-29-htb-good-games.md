@@ -11,7 +11,7 @@ header:
 categories:
   - Hack The Box
 tags:  
-  - Máquinas fáciles
+  - Easy machines
   - Sql injection
 ---
 
