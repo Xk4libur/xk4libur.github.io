@@ -15,4 +15,6 @@ tags:
   - Weak credentials
 ---
 
-Texto de prueba
+Empezamos haciendo un **ping** a la máquina víctima para saber si está en línea:
+
+![](/assets/images/htb-builder/1.png)
