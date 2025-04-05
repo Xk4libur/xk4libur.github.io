@@ -87,6 +87,37 @@ Y esta vez, si que rula:
 
 ![](/assets/images/htb-builder/23.png)
 
+Lo curioso de este repositorio es que en sus instrucciones podemos ver algunas rutas donde se supone que podemos leer el contenido de dichos archivos:
+
+![](/assets/images/htb-builder/24.png)
+
+Vamos a intentar leer la siguiente ruta **/var/jenkins_home/users/users.xml**:
+
+![](/assets/images/htb-builder/25.png)
+
+Conseguimos leer el contenido del archivo y podemos ver que hay un usuario llamado **jennifer**, acompañado de una serie de caracteres que nos pueden ser de utilidad para obtener la contraseña:
+
+![](/assets/images/htb-builder/26.png)
+
+![](/assets/images/htb-builder/27.png)
+
+Si intentamos leer el contenido de esta ruta, veremos que:
+
+![](/assets/images/htb-builder/28.png)
+
+Hay un hash muy grande que resulta ser el hash de la contraseña del usuario no privilegiado:
+
+![](/assets/images/htb-builder/29.png)
+
+Para sacar la contraseña, nos copiamos el hash en un archivo de texto y lo pasamos por la herramienta de **John The Ripper**:
+
+![](/assets/images/htb-builder/30.png)
+
+![](/assets/images/htb-builder/31.png)
+
+Si nos volvemos a la web de Jenkins, podremos iniciar sesión con estas credenciales:
+
+![](/assets/images/htb-builder/32.png)
 
 
 
