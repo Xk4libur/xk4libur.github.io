@@ -267,3 +267,5 @@ Nada más entremos en la máquina, tendremos la flag del usuario privilegiado:
 
 
 ## ⚡ MACHINE PWNED ⚡
+
+![](/assets/images/htb-builder/75.png)
