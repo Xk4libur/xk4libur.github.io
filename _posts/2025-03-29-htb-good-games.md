@@ -275,7 +275,7 @@ Y subimos pa` la cima:
 ![](/assets/images/htb-good-games/74.png)
 
 
-
+## ⚡ MACHINE PWNED ⚡
 
 
 

@@ -148,3 +148,122 @@ Hay una forma de poder ejecutar comandos en la terminal de la web, primero busca
 Nos encontramos con este script:
 
 ![](/assets/images/htb-builder/42.png)
+
+Nos copiamos el script entero en la máquina atacante, pero para usarlo tenemos que modificar esta parte:
+
+![](/assets/images/htb-builder/43.png)
+
+La idea de esto es modificar el código de este comando para que sea una reverse shell codificado en Base64. 
+
+Podemos ver que si decodificamos el código actual, veremos esto:
+
+![](/assets/images/htb-builder/44.png)
+
+Lo que haremos será codificar una reverse shell para nuestro caso actual codificada en Base64:
+
+![](/assets/images/htb-builder/45.png)
+
+Copiamos el comando codificado en Base64 en el script que nos copiamos anteriormente en nuestra máquina atacante:
+
+![](/assets/images/htb-builder/46.png)
+
+Nos ponemos en escucha por el puerto que habiamos puesto en el código:
+
+![](/assets/images/htb-builder/47.png)
+
+Lanzamos y ejecutamos el script en la web:
+
+![](/assets/images/htb-builder/48.png)
+
+Y nos vamos pa' dentro:
+
+![](/assets/images/htb-builder/49.png)
+
+Antes de ejecutar ningún comando, realizamos un tratamiento de la tty para que la terminal no explote:
+
+![](/assets/images/htb-builder/50.png)
+
+![](/assets/images/htb-builder/51.png)
+
+![](/assets/images/htb-builder/52.png)
+
+Podemos ver que en el directorio **/home**, no hay nada de nada:
+
+![](/assets/images/htb-builder/53.png)
+
+Pero si nos dirigimos a esta ruta, veremos la flag del usuario no privilegiado:
+
+![](/assets/images/htb-builder/54.png)
+
+![](/assets/images/htb-builder/55.png)
+
+En la máquina no se puede hacer nada más para tratar de conseguir los datos del usuario privilegiado, volvamos a la web para investigar.
+
+Encontramos esta opción dentro de la web:
+
+![](/assets/images/htb-builder/56.png)
+
+Dentro hay una opción de **Credentials**:
+
+![](/assets/images/htb-builder/57.png)
+
+Dentro se encuentra el usuario root del sistema, si intentamos actualizar sus credenciales, veremos esto:
+
+![](/assets/images/htb-builder/58.png)
+
+Al parecer se encuentra la clave privada SSH del usuario privilegiado, pero por algún motivo no podemos verla **a simple vista**:
+
+![](/assets/images/htb-builder/59.png)
+
+Que no se pueda ver en la web, no significa que no se pueda ver en el código de la misma. 
+
+Vamos a poner el cursor del ratón sobre el icono de la clave y seleccionamos **Inspeccionar**:
+
+![](/assets/images/htb-builder/60.png)
+
+![](/assets/images/htb-builder/61.png)
+
+Al final si que conseguimos obtener la clave privada dentro del código:
+
+![](/assets/images/htb-builder/62.png)
+
+Lo que haremos será copiarnos la clave en nuestra máquin atacante:
+
+![](/assets/images/htb-builder/63.png)
+
+Lo que tenemos que hacer ahora es tratar de inyectar la clave codificada en la web para que nos devuelva la clave SSH en texto plano, como hicimos anteriormente para ejecutar la reverse shell.
+
+Para eso nos dirigimos a este repositorio:
+
+![](/assets/images/htb-builder/65.png)
+
+![](/assets/images/htb-builder/66.png)
+
+Reemplazamos la clave que viene por defecto por la que tenemos en nuestra máquina atacante:
+
+![](/assets/images/htb-builder/68.png)
+
+Y ya tenemos la clave privada SSH del usuario privilegiado:
+
+![](/assets/images/htb-builder/69.png)
+
+Para ingresar a la máquina como usuario privilegiado, simplemente nos copiamos la clave en nuestra máquina atacante:
+
+![](/assets/images/htb-builder/70.png)
+
+Le damos los siguiente permisos a dicha clave:
+
+![](/assets/images/htb-builder/71.png)
+
+Y nos vamos pa' dentro de la máquina como **root**:
+
+![](/assets/images/htb-builder/72.png)
+
+![](/assets/images/htb-builder/73.png)
+
+Nada más entremos en la máquina, tendremos la flag del usuario privilegiado:
+
+![](/assets/images/htb-builder/74.png)
+
+
+## ⚡ MACHINE PWNED ⚡
