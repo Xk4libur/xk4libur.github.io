@@ -1,8 +1,8 @@
 ---
 layout: single
-title: Builder - Hack The Box (SIN TERMINAR)
-excerpt: "Lorep ipsum."
-date: 2025-04-04
+title: Builder - Hack The Box
+excerpt: "Una máquina entretenida, con usos de scripts en Python para obtener reverse shells, uso de codificaciones en Base64, junto con crackeos de contraseña y uso de clave privada SSH para acceder al sistema como usuario privilegiado."
+date: 2025-04-05
 classes: wide
 header:
   teaser:
