@@ -119,5 +119,22 @@ Si nos volvemos a la web de Jenkins, podremos iniciar sesión con estas credenci
 
 ![](/assets/images/htb-builder/32.png)
 
+Al investigar la web, podemos acceder a varias rutas de la misma, entre ellas la siguiente: 
+
+![](/assets/images/htb-builder/33.png)
+
+Podemos acceder a una consola que nos permite ejecutar instrucciones:
+
+![](/assets/images/htb-builder/34.png)
+
+![](/assets/images/htb-builder/35.png)
+
+![](/assets/images/htb-builder/36.png)
+
+Si intentamos poner una suma para que la terminal interprete el código y nos devuelva el resultado, veremos que, nos lo interpreta:
+
+![](/assets/images/htb-builder/37.png)
+
+![](/assets/images/htb-builder/38.png)
 
 
