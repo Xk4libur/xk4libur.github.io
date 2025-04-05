@@ -43,6 +43,25 @@ Saber la versión del servicio es muy importante, ya que podemos buscar exploits
 
 ![](/assets/images/htb-builder/11.png)
 
-Elegimos este repositorio:
+Mientras buscamos el exploit podemos ver que la vulnerabilidad que tiene la máquina es que podemos leer el contenido de los archivos que tiene la máquina en local, lo cual nos permite acceder a información confidencial:
+
+![](/assets/images/htb-builder/15.png)
+
+Elegimos este repositorio para proceder:
 
 ![](/assets/images/htb-builder/12.png)
+
+Podemos ver que el exploit es un archivo en Python:
+
+![](/assets/images/htb-builder/13.png)
+
+El comando para poder usar el exploit es el siguiente:
+
+![](/assets/images/htb-builder/14.png)
+
+Nos clonamos el repositorio:
+
+![](/assets/images/htb-builder/16.png)
+
+
+
