@@ -63,5 +63,30 @@ Nos clonamos el repositorio:
 
 ![](/assets/images/htb-builder/16.png)
 
+Ponemos la instrucción para hacer funcionar el comando, en este intento intentaremos leer el archivo **/etc/passwd**:
+
+![](/assets/images/htb-builder/17.png)
+
+Al primer intento podemos ver que no rula:
+
+![](/assets/images/htb-builder/18.png)
+
+Por algún motivo el script falla, así que lo mandamos pa’ la puñeta:
+
+![](/assets/images/htb-builder/19.png)
+
+Podemmos elegir este otro repositorio:
+
+![](/assets/images/htb-builder/21.png)
+
+Esta es la forma en la que ejecutamos el exploit:
+
+![](/assets/images/htb-builder/22.png)
+
+Y esta vez, si que rula:
+
+![](/assets/images/htb-builder/23.png)
+
+
 
 
