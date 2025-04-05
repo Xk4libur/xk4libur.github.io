@@ -137,4 +137,14 @@ Si intentamos poner una suma para que la terminal interprete el código y nos de
 
 ![](/assets/images/htb-builder/38.png)
 
+Al parecer no podemos ejecutar código bash en la consola de la web:
 
+![](/assets/images/htb-builder/40.png)
+
+Hay una forma de poder ejecutar comandos en la terminal de la web, primero buscamos esto en el navegador:
+
+![](/assets/images/htb-builder/41.png)
+
+Nos encontramos con este script:
+
+![](/assets/images/htb-builder/42.png)
