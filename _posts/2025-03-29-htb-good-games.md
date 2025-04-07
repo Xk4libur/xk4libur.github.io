@@ -9,9 +9,8 @@ header:
   teaser_home_page: true
   icon: /assets/images/htb_logo.webp
 categories:
-  - Hack The Box
+  - Hack The Box - Easy
 tags:  
-  - Easy machines
   - Sql injection
 ---
 

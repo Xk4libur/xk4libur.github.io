@@ -1,17 +1,16 @@
 ---
 layout: single
-title: Builder - Hack The Box
-excerpt: "Una máquina entretenida, con usos de scripts en Python para obtener reverse shells, uso de codificaciones en Base64, junto con crackeos de contraseña y uso de clave privada SSH para acceder al sistema como usuario privilegiado."
-date: 2025-04-05
+title: Cicada - Hack The Box (SIN TERMINAR)
+excerpt: "Lorep ipsum."
+date: 2025-04-07
 classes: wide
 header:
   teaser:
   teaser_home_page: true
   icon: /assets/images/htb_logo.webp
 categories:
-  - Hack The Box - Medium
+  - Hack The Box - Easy
 tags:  
-  - Weak credentials
 ---
 
 Empezamos haciendo un **ping** a la máquina víctima para saber si está en línea:
