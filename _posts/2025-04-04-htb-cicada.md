@@ -195,3 +195,36 @@ Y una vez dentro, ejecutamos el siguiente comando:
 
 ![](/assets/images/htb-cicada/47.png)
 
+Ahora realizamos una copia del archivo “sam” y lo guardamos dentro del directorio que hemos creado.
+
+El **SAM (Security Accounts Manager)** es una base de datos crítica en sistemas Windows que almacena información de usuarios locales, incluyendo sus nombres y contraseñas (en formato hash).
+
+Pero para poder sacar la contraseña del hash, tenemos que tener una llave maestra, y ésta se ubica en "system", y es ahí donde ejecutamos el siguiente comando:
+
+![](/assets/images/htb-cicada/48.png)
+
+Cuando ejecutemos los 2 comandos anteriores, validamos que los archivos estén copiamos en el directorio creado anteriormente:
+
+![](/assets/images/htb-cicada/49.png)
+
+Y ahora nos descargamos los 2 archivos a nuestra máquina atacante:
+
+![](/assets/images/htb-cicada/50.png)
+
+![](/assets/images/htb-cicada/51.png)
+
+Con estos archivos ya podemos sacar tanto el nombre de usuario del administrador del sistema, y la contraseña en formato hash:
+
+![](/assets/images/htb-cicada/52.png)
+
+Ahora sí que sí, nos vamos pa' dentro:
+
+![](/assets/images/htb-cicada/53.png)
+
+Ya estamos dentro:
+
+![](/assets/images/htb-cicada/54.png)
+
+Esta es la flag del usuario administrador:
+
+![](/assets/images/htb-cicada/55.png)
