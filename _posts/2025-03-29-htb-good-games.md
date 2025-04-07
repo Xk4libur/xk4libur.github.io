@@ -11,7 +11,6 @@ header:
 categories:
   - Hack The Box - Easy
 tags:  
-  - Sql injection
 ---
 
 Empezamos haciendo un **ping** a la máquina víctima para saber si está en línea:

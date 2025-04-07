@@ -11,7 +11,6 @@ header:
 categories:
   - Hack The Box - Medium
 tags:  
-  - Weak credentials
 ---
 
 Empezamos haciendo un **ping** a la máquina víctima para saber si está en línea:
