@@ -228,3 +228,8 @@ Ya estamos dentro:
 Esta es la flag del usuario administrador:
 
 ![](/assets/images/htb-cicada/55.png)
+
+
+## ⚡ MACHINE PWNED ⚡
+
+![](/assets/images/htb-cicada/56.png)
