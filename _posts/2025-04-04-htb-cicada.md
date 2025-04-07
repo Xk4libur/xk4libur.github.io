@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Cicada - Hack The Box (SIN TERMINAR)
+title: Cicada - Hack The Box (SIN TERMINAR) 2.0
 excerpt: "Lorep ipsum."
 date: 2025-04-07
 classes: wide
