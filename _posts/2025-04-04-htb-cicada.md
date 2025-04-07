@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Cicada - Hack The Box (SIN TERMINAR) 2.0
-excerpt: "Lorep ipsum."
+title: Cicada - Hack The Box
+excerpt: "Una buena máquina para aprender conceptos básicos de Active Directory, como funciona un servidor Windows por detrás y el uso de hashes para acceder al usuario Administrador del sistema.."
 date: 2025-04-07
 classes: wide
 header:
