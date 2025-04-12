@@ -123,3 +123,25 @@ Si ejecutamos el comando **whoami**, veremos que somos el usuario "www-data":
 
 ![](/assets/images/htb-validation/30.png)
 
+Para ganar acceso a la máquina, pondremos el código de una reverse shell pero de tal forma que esté en formato de URL, esto lo haremos con Burpsuite.
+
+Nos dirigimos a esta sección del Burpsuite:
+
+![](/assets/images/htb-validation/31.png)
+
+Incluimos este código de reverse shell:
+
+![](/assets/images/htb-validation/32.png)
+
+Encodeamos el código como URL:
+
+![](/assets/images/htb-validation/33.png)
+
+![](/assets/images/htb-validation/34.png)
+
+Nos ponemos en escucha por el puerto que hemos incluido en el código y copiamos el código de la URL en la barra de búsqueda:
+
+![](/assets/images/htb-validation/35.png)
+
+![](/assets/images/htb-validation/36.png)
+
