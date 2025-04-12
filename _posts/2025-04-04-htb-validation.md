@@ -1,8 +1,8 @@
 ---
 layout: single
 title: Validation - Hack The Box
-excerpt: "Lorep ipsum"
-date: 2025-04-07
+excerpt: "Una buena máquina para practicar con la SQL Injection usando Burpsuite, además de enumerar archivos con gobuster."
+date: 2025-04-12
 classes: wide
 header:
   teaser:
