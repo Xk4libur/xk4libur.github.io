@@ -81,3 +81,45 @@ Nos veo nada importante por aquí, así que vamos a sacar toda la información q
 
 ![](/assets/images/htb-validation/17.png)
 
+Parece ser que no hay otros usuarios más del que creamos anteriormente con el nombre de “xk4libur”:
+
+![](/assets/images/htb-validation/18.png)
+
+Como en la web no podemos sacar más datos, vamos a probar a buscar directorios y/o archivos ocultos con **gobuster**:
+
+![](/assets/images/htb-validation/20.png)
+
+No encontramos nada si miramos de forma general, vamos a probar a buscar archivos con extensión **.php** y **.txt**:
+
+![](/assets/images/htb-validation/21.png)
+
+Podemos ver que hay un archivo con extensión **.php**, vamos a ver que contiene:
+
+![](/assets/images/htb-validation/24.png)
+
+Pues no hay nada, de lujo.
+
+Podemos intentar subir algún archivo que nos permita hacer un RCE y así poder obtener una reverse shell, lo podemos hacer con esta modificación en la solicitud:
+
+![](/assets/images/htb-validation/25.png)
+
+Lo que estamos haciendo es subir un archivo llamado **pwned.php** que nos permita ejecutar comandos de forma remota en la web usando la URL.
+
+Antes de lanzar la solicitud, desactivamos la interceptación de Burpsuite, ya que ya no es necesaria:
+
+![](/assets/images/htb-validation/26.png)
+
+Una vez subido el archivo, vamos a acceder a él:
+
+![](/assets/images/htb-validation/27.png)
+
+![](/assets/images/htb-validation/28.png)
+
+Podemos ejecutar comandos directamente en el servidor usando la URL de la web:
+
+![](/assets/images/htb-validation/29.png)
+
+Si ejecutamos el comando **whoami**, veremos que somos el usuario "www-data":
+
+![](/assets/images/htb-validation/30.png)
+
