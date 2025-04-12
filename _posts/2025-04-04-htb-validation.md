@@ -145,3 +145,35 @@ Nos ponemos en escucha por el puerto que hemos incluido en el código y copiamos
 
 ![](/assets/images/htb-validation/36.png)
 
+Ya estamos dentro de la máquina:
+
+![](/assets/images/htb-validation/37.png)
+
+Realizamos un tratamiento de la tty para que la terminal no explote:
+
+![](/assets/images/htb-validation/38.png)
+
+![](/assets/images/htb-validation/40.png)
+
+La flag del usuario no privilegiado se encuentra en la siguiente ruta: "/home/htb":
+
+![](/assets/images/htb-validation/43.png)
+
+Tras investigar los directorios de la máquina no se encontró nada de información útil, sin embargo, si investigamos la siguiente ruta “/var/www/html”, encontraremos esto:
+
+![](/assets/images/htb-validation/45.png)
+
+Podemos ver que hay una contraseña en texto plano, vamos a intentar usarla para escalar al usuario administrador:
+
+![](/assets/images/htb-validation/46.png)
+
+![](/assets/images/htb-validation/47.png)
+
+Ahora solo vamos al directorio del usuario root, y buscamos la flag:
+
+![](/assets/images/htb-validation/48.png)
+
+
+## ⚡ MACHINE PWNED ⚡
+
+![](/assets/images/htb-validation/49.png)
