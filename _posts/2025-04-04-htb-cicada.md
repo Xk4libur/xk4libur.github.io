@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Cicada - Hack The Box
-excerpt: "Una buena máquina para aprender conceptos básicos de Active Directory, como funciona un servidor Windows por detrás y el uso de hashes para acceder al usuario Administrador del sistema.."
+excerpt: "Una buena máquina para aprender conceptos básicos de Active Directory, como funciona un servidor Windows por detrás y el uso de hashes para acceder al usuario administrador del sistema."
 date: 2025-04-07
 classes: wide
 header:
