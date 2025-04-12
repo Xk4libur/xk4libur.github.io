@@ -56,3 +56,28 @@ Lanzamos una petición a la web poniendo cualquier nombre de usuario:
 Podemos ver tanto la petición, como la información que contiene en cuanto a nombre de usuario:
 
 ![](/assets/images/htb-validation/11.png)
+
+Para saber en qué base de datos estamos actualmente, vamos a probar con esta sql injection básica:
+
+![](/assets/images/htb-validation/12.png)
+
+Enviamos la solicitud:
+
+![](/assets/images/htb-validation/13.png)
+
+Podemos ver que estamos dentro de la base de datos "Registration":
+
+![](/assets/images/htb-validation/14.png)
+
+Seguramente esta base de datos es usada para almacenar la información, pero puede ser que la web tenga más bases de datos a parte de esta, así que vamos a probar con esta modificación de la sqli anterior:
+
+![](/assets/images/htb-validation/15.png)
+
+Nos aparecen todas las bases de datos que tiene la web por detrás:
+
+![](/assets/images/htb-validation/16.png)
+
+Nos veo nada importante por aquí, así que vamos a sacar toda la información que tiene la base de datos “Registration”, como toda la información de los usuarios se guarda ahí, al igual podemos encontrar datos interesantes de otros usuarios:
+
+![](/assets/images/htb-validation/17.png)
+
