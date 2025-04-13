@@ -1,8 +1,8 @@
 ---
 layout: single
 title: Return - Hack The Box
-excerpt: "Lorep ipsum."
-date: 2025-04-12
+excerpt: "Una máquina Windows sencilla, en la que se aprende a modificar servicios internos del sistema para añadir un binPath para obtener una reverse shell."
+date: 2025-04-13
 classes: wide
 header:
   teaser:
