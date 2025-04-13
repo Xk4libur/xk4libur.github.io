@@ -89,7 +89,54 @@ Encontramos este artícula oficial de Microsoft en el que podremos encontrar inf
 
 Los miembros de este grupo pueden realizar diferentes acciones, entre ellas:
 
+![](/assets/images/htb-return/20.png)
+
 - Crear y eliminar recursos compartidos a nivel de red
 - Iniciar y detener servicios
 - Realizar backups de archivos
 - Formatear discos duros de los dispositivos
+
+Me llama mucho la atención la opción de "Iniciar y detener servicios", ya que podríamos intentar modificar proporcionando un **binPath** a un binario que nos permita enviar una shell desde la máquina Windows a nuestra máquina atacante. 
+
+Lo haremos de la siguiente forma, primero listamos los servicios a los cuales tenemos acceso:
+
+![](/assets/images/htb-return/21.png)
+
+El servicio que usaremos será "**VMtools**", lo siguiente que hacemos es dirigirse a esta ruta en nuestra máquina atacante y copiamos el binario de Netcat con extensión **.exe** al directorio actual de trabajo, que es el que tiene el formato compatible para Windows:
+
+![](/assets/images/htb-return/22.png)
+
+Ahora subimos el archivo de la máquina atacante a la máquina Windows:
+
+![](/assets/images/htb-return/23.png)
+
+Podemos ver que el archivo ya está subido:
+
+![](/assets/images/htb-return/24.png)
+
+Ahora modificamos el servicio **VMTools** para meterle el binPath al binario de Netcat, de tal forma que nos enviará una shell a nuestra máquina atacante:
+
+![](/assets/images/htb-return/25.png)
+
+Ahora detenemos el servicio **VMTools**:
+
+![](/assets/images/htb-return/27.png)
+
+Nos ponemos en escucha por el puerto especificado anteriormente:
+
+![](/assets/images/htb-return/26.png)
+
+Y iniciamos de nuevo el servicio:
+
+![](/assets/images/htb-return/28.png)
+
+Y nos vamos pa' dentro:
+
+![](/assets/images/htb-return/29.png)
+
+Ahora solo queda ver el contenido de la flag del usuario administrador del sistema:
+
+![](/assets/images/htb-return/30.png)
+
+
+## ⚡ MACHINE PWNED ⚡
