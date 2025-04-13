@@ -71,3 +71,25 @@ La flag del usuario no privilegiado se encuentra en la siguiente ruta:
 
 ![](/assets/images/htb-return/14.png)
 
+Nuestro objetivo ahora es escalar privilegios para ser el administrador del sistema, para ello podemos ver los privilegios que tenemos siendo el usuario actual:
+
+![](/assets/images/htb-return/15.png)
+
+Parece ser que estamos dentro del grupo "Server Operators":
+
+![](/assets/images/htb-return/16.png)
+
+Podemos buscar en Internet alguna forma de abusar de esto para escalar privilegios:
+
+![](/assets/images/htb-return/17.png)
+
+Encontramos este artícula oficial de Microsoft en el que podremos encontrar información sobre las acciones que puede hacer el grupo "Server Operators":
+
+![](/assets/images/htb-return/18.png)
+
+Los miembros de este grupo pueden realizar diferentes acciones, entre ellas:
+
+- Crear y eliminar recursos compartidos a nivel de red
+- Iniciar y detener servicios
+- Realizar backups de archivos
+- Formatear discos duros de los dispositivos
