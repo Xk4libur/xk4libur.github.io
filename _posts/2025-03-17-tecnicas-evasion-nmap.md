@@ -7,9 +7,8 @@ classes: wide
 header:
  teaser_home_page: true
 categories:
-  - Nmap
-tags:
-  - Reconocimiento  
+  - Reconocimiento
+tags:  
 ---
 
 Al momento de hacer pruebas de pentesting, uno de los desafíos más grandes es evitar la detección de los **Firewalls**.
