@@ -20,6 +20,19 @@ En este caso se puede ver un ping a los servidores DNS de Google, esto es solo u
 
 ![](/assets/images/identificacion-so/2.png)
 
-Se puede ver un detalle importante, el TTL que tiene de valor un 59:
+Se puede ver un detalle importante, el **TTL** que tiene de valor un **59**, pero esto del TTL, ¿qué demonios es?.
+
+El **TTL** o **(time to live)** es un mecanismo que determina la cantidad máxima de tiempo o de “saltos” que puede realizar un paquete cuando está en circulación por la red antes de ser descartado.
+
+Cada paquete tiene un valor numérico, y éste se reduce a 1 cuando pasa por un enrutador, en caso de que el paquete llegue a 0, éste se descarta y se envía un mensaje al emisor del paquete.
+
+En el ejemplo anterior, se realizó un ping a un servidor DNS de google y el TTL dió de resultado un 59, cada sistema operativo tiene su TTL correspondiente, y en este caso sería **Linux**, ya que el valor se acerca a **64**.
+
+En caso de que diera un número cercano a **128**, el sistema estaría ejecutando un **Windows**, como es en el siguiente caso:
 
 ![](/assets/images/identificacion-so/3.png)
+
+![](/assets/images/identificacion-so/4.png)
+
+
+
