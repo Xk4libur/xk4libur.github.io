@@ -37,5 +37,4 @@ En caso de que diera un número cercano a **128**, el sistema estaría ejecutand
 
 Existe este script en Python que nos permite saber que tipo de sistema operativo está usando el sistema objetivo de forma más directa:
 
-https://pastebin.com/HmBcu7j2
-
+[Link al script 'whichsystem'](https://pastebin.com/HmBcu7j2)
