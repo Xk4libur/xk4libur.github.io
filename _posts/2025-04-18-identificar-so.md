@@ -1,6 +1,6 @@
 ---
 layout: single
-title: ¿Cómo puedo identificar un sistema operativo de un equipo externo? (SIN TERMINAR)
+title: ¿Cómo puedo identificar un sistema operativo de un equipo externo?
 date: 2025-04-18
 classes: wide
 header:
