@@ -16,3 +16,4 @@ Hay una forma muy útil de saber que tipo de sistema operativo usa la máquina o
 
 ![](/assets/images/identificacion-so/1.png)
 
+jferifjeoirjfoij
