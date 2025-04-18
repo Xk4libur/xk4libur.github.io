@@ -1,6 +1,6 @@
 ---
 layout: single
-title: ¿Cómo puedo identificar un sistema operativo de un equipo externo?
+title: ¿Cómo puedo identificar un sistema operativo de un equipo externo? (SIN TERMINAR)
 date: 2025-04-18
 classes: wide
 header:
@@ -16,4 +16,10 @@ Hay una forma muy útil de saber que tipo de sistema operativo usa la máquina o
 
 ![](/assets/images/identificacion-so/1.png)
 
-jferifjeoirjfoij
+En este caso se puede ver un ping a los servidores DNS de Google, esto es solo una prueba para aprender a identificar sistemas operativos en equipos externos:
+
+![](/assets/images/identificacion-so/2.png)
+
+Se puede ver un detalle importante, el TTL que tiene de valor un 59:
+
+![](/assets/images/identificacion-so/3.png)
