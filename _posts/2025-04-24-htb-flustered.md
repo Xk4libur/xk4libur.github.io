@@ -1,6 +1,6 @@
 ---
 layout: single
-title: FLustered - Hack The Box
+title: Flustered - Hack The Box
 excerpt: "Lorem ipsum"
 date: 2025-04-25
 classes: wide
