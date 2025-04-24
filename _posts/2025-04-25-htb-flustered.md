@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Flustered - Hack The Box (Sin terminar)
+title: FLustered - Hack The Box
 excerpt: "Lorem ipsum"
 date: 2025-04-25
 classes: wide
@@ -10,7 +10,7 @@ header:
   icon: /assets/images/htb_logo.webp
 categories:
   - Hack The Box - Medium
-tags:
+tags:  
 ---
 
 Texto de prueba
