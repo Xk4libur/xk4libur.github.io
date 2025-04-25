@@ -92,3 +92,7 @@ Literalmente, la misma web otra vez:
 Si volvemos a ver el escaneo de nmap, veremos que hay un puerto que me llama la atención, el **3128** que tiene algo llamado **squid proxy** corriendo por detrás:
 
 ![](/assets/images/htb-flustered/19.png)
+
+## ¿Qué es un squid proxy?
+
+text
