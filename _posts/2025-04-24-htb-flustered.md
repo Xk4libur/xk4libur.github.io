@@ -100,3 +100,5 @@ Es un servidor que actúa como intermediario entre el cliente y el servidor web 
 - Cachear página web realizando copias de las mismas para ahorrar ancho de banda y acelerar el acceso
 - Bloquear sitios web
 - Monitorear el tráfico de red
+
+texto
