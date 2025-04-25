@@ -36,3 +36,56 @@ Si copiamos la IP de la máquina víctima en el navegador, veremos esto:
 ![](/assets/images/htb-flustered/5.png)
 
 La web está guapa, pero no hay nada de información que rascar de aquí. 
+
+Vamos a probar a buscar archivos y/o directorios ocultos en la web, puede ser que hayan archivo dentro que nos sean de utilidad:
+
+![](/assets/images/htb-flustered/6.png)
+
+Pues no hay nada, de lujo:
+
+![](/assets/images/htb-flustered/7.png)
+
+Si nos volvemos al escaneo de nmap, podremos ver este nombre de dominio que vimos anteriormente:
+
+![](/assets/images/htb-flustered/8.png)
+
+Si hacemos un **ping** a este nombre de dominio, veremos que no tenemos conexión con el mismo:
+
+![](/assets/images/htb-flustered/9.png)
+
+La solución es sencilla, simplemente añadimos la IP junto con el nombre de dominio al archivo **/etc/hosts**:
+
+![](/assets/images/htb-flustered/10.png)
+
+Ahora tenemos conexión con el dominio:
+
+![](/assets/images/htb-flustered/11.png)
+
+Si ponemos el dominio en el navegador, nos llevará aquí:
+
+![](/assets/images/htb-flustered/12.png)
+
+La misma web que antes:
+
+![](/assets/images/htb-flustered/13.png)
+
+Sin embargo, en el escaneo de nmap había otro puerto que tenía un dominio diferente:
+
+![](/assets/images/htb-flustered/14.png)
+
+Al igual que antes, no tenemos conexión:
+
+![](/assets/images/htb-flustered/15.png)
+
+Añadimos este nuevo dominio al archivo **/etc/hosts**:
+
+![](/assets/images/htb-flustered/16.png)
+
+Si vemos el contenido del dominio, veremos que:
+
+![](/assets/images/htb-flustered/17.png)
+
+Literalmente, la misma web otra vez:
+
+![](/assets/images/htb-flustered/18.png)
+
