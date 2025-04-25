@@ -13,6 +13,12 @@ categories:
 tags:  
 ---
 
-## fekrfneorifoeirjfoierf
+Empezamos haciendo un **ping** a la máquina víctima para saber si está en línea:
 
-dewpfjpwrjfpiwjrfoijwrf
+![](/assets/images/htb-flustered/1.png)
+
+Podemos ver que hay conexión con la máquina víctima y por el número del **TTL**, podemos definir que es una **máquina Windows**. 
+
+Ahora que ya sabemos que tenemos conexión pasamos a escanear los puertos abiertos de la máquina:
+
+![](/assets/images/htb-flustered/2.png)
