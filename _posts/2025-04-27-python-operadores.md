@@ -13,7 +13,7 @@ tags:
 
 ---
 
-## Suma de variables
+## - Suma de variables
 
 En este ejemplo sencillo, incluimos algunas variables a las que les asignamos unos valores, posteriormente sumamos el valor de las variables:
 
@@ -21,7 +21,7 @@ En este ejemplo sencillo, incluimos algunas variables a las que les asignamos un
 
 ![](/assets/images/python/7.png)
 
-## Resta de variables
+## - Resta de variables
 
 En este ejemplo sencillo, con la base del ejemplo anterior, restamos el valor de las variables para obtener el valor de la resta:
 
@@ -35,7 +35,7 @@ Que conste, que tambien podemos asignar valores a la operaciones de resta, de ta
 
 ![](/assets/images/python/11.png)
 
-## Multiplicación de variables
+## - Multiplicación de variables
 
 En este ejemplo sencillo, incluimos algunas variables a las que les asignamos unos valores, posteriormente multiplicamos el valor de las variables:
 
@@ -43,7 +43,7 @@ En este ejemplo sencillo, incluimos algunas variables a las que les asignamos un
 
 ![](/assets/images/python/13.png)
 
-# División de variables
+## - División de variables
 
 Las divisiones en Python son un caso un poco aparte, porque por defecto, da igual que operación realicemos, ésta siempre devolverá un resultado con decimales:
 
