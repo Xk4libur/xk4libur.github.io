@@ -14,7 +14,7 @@ tags:
 
 ## - Operadores con cadenas de caracteres
 
-Python permite sumar valores que asignados a las cadenas:
+Python permite sumar valores asignados a las cadenas:
 
 ![](/assets/images/python/20.png)
 
