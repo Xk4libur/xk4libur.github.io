@@ -1,9 +1,8 @@
 ---
 layout: single
 title: Operadores básicos en Python 1
-excerpt: "Como todo lenguaje de programación existente en la actualidad, debe tener las operadores matemáticas básicos para poder hacer operaciones de nivel básico, desde sumar hasta dividir. Esta es la primera parte de este apartado
-"
-date: 2025-03-19
+excerpt: "Como todo lenguaje de programación existente en la actualidad, debe tener las operadores matemáticas básicos para poder hacer operaciones de nivel básico, desde sumar hasta dividir. Esta es la primera parte de este apartado."
+date: 2025-04-27
 classes: wide
 header:
   teaser: /assets/images/slae32.png
