@@ -18,3 +18,19 @@ tags:
 En este ejemplo sencillo, incluimos algunas variables a las que les asignamos unos valores, posteriormente sumamos el valor de las variables:
 
 ![](/assets/images/python/6.png)
+
+![](/assets/images/python/7.png)
+
+## Resta de variables
+
+En este ejemplo sencillo, con la base del ejemplo anterior, restamos el valor de las variables para obtener el valor de la resta:
+
+![](/assets/images/python/8.png)
+
+![](/assets/images/python/9.png)
+
+Que conste, que tambien podemos asignar valores a la operaciones de resta, de tal forma que nos devuelvan valores negativos:
+
+![](/assets/images/python/10.png)
+
+![](/assets/images/python/11.png)
