@@ -34,3 +34,9 @@ Python permite tanto unir como repetir valores de listas, en este ejemplo se une
 ![](/assets/images/python/24.png)
 
 ![](/assets/images/python/25.png)
+
+También podemos repetir valores de una misma lista:
+
+![](/assets/images/python/26.png)
+
+![](/assets/images/python/27.png)
