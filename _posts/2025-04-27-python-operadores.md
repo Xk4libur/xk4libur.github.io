@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Operadores básicos en Python
-excerpt: "Como todo lenguaje de programación existente en la actualidad, debe tener las operadores matemáticas básicos para poder hacer operaciones de nivel básico, desde sumar hasta dividir.
+title: Operadores básicos en Python 1
+excerpt: "Como todo lenguaje de programación existente en la actualidad, debe tener las operadores matemáticas básicos para poder hacer operaciones de nivel básico, desde sumar hasta dividir. Esta es la primera parte de este apartado
 "
 date: 2025-03-19
 classes: wide
@@ -58,3 +58,13 @@ Pero si realmente queremos obtener valores enteron en las divisiones, es tan sen
 ![](/assets/images/python/16.png)
 
 ![](/assets/images/python/17.png)
+
+## - Exponente 
+
+En Python también se pueden hacer operaciones con exponentes, es decir, elevar un número a la potencia de otro.
+
+En las siguientes imágenes se puede ver un ejemplo sencillo de como hacer esta operatoria:
+
+![](/assets/images/python/18.png)
+
+![](/assets/images/python/19.png)
