@@ -34,3 +34,27 @@ Que conste, que tambien podemos asignar valores a la operaciones de resta, de ta
 ![](/assets/images/python/10.png)
 
 ![](/assets/images/python/11.png)
+
+## Multiplicación de variables
+
+En este ejemplo sencillo, incluimos algunas variables a las que les asignamos unos valores, posteriormente multiplicamos el valor de las variables:
+
+![](/assets/images/python/12.png)
+
+![](/assets/images/python/13.png)
+
+# División de variables
+
+Las divisiones en Python son un caso un poco aparte, porque por defecto, da igual que operación realicemos, ésta siempre devolverá un resultado con decimales:
+
+![](/assets/images/python/14.png)
+
+![](/assets/images/python/15.png)
+
+Esto ocurre porque **Python prioriza la precisión**, prefiere dar un número flotante para no perder datos en caso de que sean necesarios.
+
+Pero si realmente queremos obtener valores enteron en las divisiones, es tan sencillo como poner una doble barra de divisiones "**//**": 
+
+![](/assets/images/python/16.png)
+
+![](/assets/images/python/17.png)
