@@ -29,3 +29,11 @@ Se creó en el año 2008 en las versiones de Python 2.6 y Python 3.0, se creó p
 - **F-Strings**:
 
 Es la versión más reciente y recomendada para casi todo, se creó en el año 2017 a partir de Python 3.6 para hacer el formateo más rápido, claro y potente.
+
+## Ejemplos prácticos de cada técnica
+
+- Ejemplo con el operador %:
+
+![](/assets/images/docker/27.png)
+
+![](/assets/images/docker/28.png)
