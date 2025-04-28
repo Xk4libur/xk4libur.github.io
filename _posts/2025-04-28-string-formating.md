@@ -1,7 +1,7 @@
 ---
 layout: single
 title: String formatting o formateo de cadenas
-excerpt: "Esta es la parte 2 del apartado de los operadores básicos en Python."
+excerpt: "Una de las opciones más usadas en Python, es poder combinar texto con variables en una misma cadena, para eso existe el 'string formatting'."
 date: 2025-04-28
 classes: wide
 header:
@@ -22,7 +22,7 @@ El **formateo de cadenas** o string formatting en una forma en la que Python per
 
 Se creó en el año 1991 en las primeras versiones de Python, además que se inspiró en el lenguaje **C**.
 
-- **Método** **.format()**:
+- **Método** "**.format()**":
 
 Se creó en el año 2008 en las versiones de Python 2.6 y Python 3.0, se creó porque el operador anterior era más limitado para casos complejos.
 
