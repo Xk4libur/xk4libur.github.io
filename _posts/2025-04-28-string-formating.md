@@ -34,6 +34,6 @@ Es la versión más reciente y recomendada para casi todo, se creó en el año 2
 
 - Ejemplo con el operador %:
 
-![](/assets/images/docker/27.png)
+![](/assets/images/python/27.png)
 
-![](/assets/images/docker/28.png)
+![](/assets/images/python/28.png)
