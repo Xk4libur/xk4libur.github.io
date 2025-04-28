@@ -32,8 +32,20 @@ Es la versión más reciente y recomendada para casi todo, se creó en el año 2
 
 ## Ejemplos prácticos de cada técnica
 
-- Ejemplo con el operador %:
+- Ejemplo con el operador "%":
 
 ![](/assets/images/python/28.png)
+
+![](/assets/images/python/29.png)
+
+- Ejemplo con el método ".format()":
+
+![](/assets/images/python/30.png)
+
+![](/assets/images/python/29.png)
+
+- Ejemplo con "F-Strings*: 
+
+![](/assets/images/python/31.png)
 
 ![](/assets/images/python/29.png)
