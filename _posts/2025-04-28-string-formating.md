@@ -49,3 +49,16 @@ Es la versión más reciente y recomendada para casi todo, se creó en el año 2
 ![](/assets/images/python/31.png)
 
 ![](/assets/images/python/29.png)
+
+
+## ¿Para qué se usa realmente el string formatting?
+
+Algunos ejemplos reales donde se usa el formateo de cadenas son: 
+
+- Envío de correos automáticos: 
+
+- Mostrar reportes de ventas de diferentes productos
+
+- Mostrar estadísticas y cálculos matemáticos
+
+- Generar tickets de compra
