@@ -12,7 +12,7 @@ tags:
 
 ---
 
-## Contador del 1 al 10 usando el bucle "while":
+## 1. Contador del 1 al 10 usando el bucle "while":
 
 ![](/assets/images/ejercicios-python/1.png)
 
