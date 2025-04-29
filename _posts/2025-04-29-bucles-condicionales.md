@@ -2,7 +2,7 @@
 layout: single
 title: Bucles y condicionales
 excerpt: "..."
-date: 2025-04-28
+date: 2025-04-29
 classes: wide
 header:
   teaser: /assets/images/slae32.png
@@ -11,3 +11,4 @@ categories:
 tags:
 
 ---
+joijoij
