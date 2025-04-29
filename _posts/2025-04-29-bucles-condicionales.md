@@ -25,3 +25,5 @@ Un ejemplo usando este tipo de bucle sería el siguiente:
 ![](/assets/images/python/32.png)
 
 ![](/assets/images/python/33.png)
+
+En este ejemplo se proporciona una lista con nombres, usando el bucle **for** para que recorra cada nombre de la lista, para que posteriormente printee cada nombre de la lista por separado.
