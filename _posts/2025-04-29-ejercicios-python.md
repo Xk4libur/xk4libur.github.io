@@ -19,3 +19,11 @@ tags:
 - **Output del programa**:
 
 ![](/assets/images/ejercicios-python/2.png)
+
+## 2. Mostrar los nombres dentro de una lista usando el bucle "for": 
+
+![](/assets/images/ejercicios-python/3.png)
+
+- **Output del programa**:
+
+![](/assets/images/ejercicios-python/4.png)
