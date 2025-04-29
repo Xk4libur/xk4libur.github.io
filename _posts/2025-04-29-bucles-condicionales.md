@@ -34,7 +34,19 @@ Un ejemplo usando este tipo de bucle sería el siguiente:
 
 ![](/assets/images/python/34.png)
 
+En este ejemplo podemos ver que el código tiene una variable "contador" que vale 1, junto con un bucle **While** que printea el valor del contador siempre que el valor de éste sea menor o igual a 10.
 
+![](/assets/images/python/35.png)
 
+El problema está en que como el contador siempre vale 1 y no cambia su valor, el bucle es infinito.
 
-![](/assets/images/python/32.png)
+![](/assets/images/python/36.png)
+
+Lo que haríamos para cerrar el bucle sería modificiar el código de esta forma:
+
+![](/assets/images/python/37.png)
+
+![](/assets/images/python/38.png)
+
+En este ejemplo, cada vez que el bucle termina una vuelta, se le suma 1 al valor de "contador", de esta forma llegará un momento en el que el valor de "contador" será igual a 10 y el bucle terminará.
+
