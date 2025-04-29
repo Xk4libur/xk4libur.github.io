@@ -27,3 +27,14 @@ Un ejemplo usando este tipo de bucle sería el siguiente:
 ![](/assets/images/python/33.png)
 
 En este ejemplo se proporciona una lista con nombres, usando el bucle **for** para que recorra cada nombre de la lista, para que posteriormente printee cada nombre de la lista por separado.
+
+- **while**: este tipo de bucle realiza la misma función que el anterior bucle "for", pero siempre que una condición específica se mantenga como verdadera.
+
+Un ejemplo usando este tipo de bucle sería el siguiente:
+
+![](/assets/images/python/34.png)
+
+
+
+
+![](/assets/images/python/32.png)
