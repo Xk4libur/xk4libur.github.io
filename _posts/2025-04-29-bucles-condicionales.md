@@ -55,6 +55,22 @@ En este ejemplo, cada vez que el bucle termina una vuelta, se le suma 1 al valor
 
 Este tipo de bucles en Python se pueden definir como **bucles que están dentro de otros bucles**.
 
-Un buen ejemplo para este tipo de bucle es el siguiente:
+Un buen ejemplo para este tipo de bucle es el siguiente, es una lista de números los cuales podemos separar de forma individual usando varios bucles:
 
 ![](/assets/images/python/39.png)
+
+Aquí separamos los números de la lista en 3 partes diferentes:
+
+![](/assets/images/python/40.png)
+
+Aunque también podemos separar cada número de cada lista de forma individual:
+
+![](/assets/images/python/41.png)
+
+![](/assets/images/python/42.png)
+
+Si queremos hacer que se vea más atractivo, podemos modificar el código de esta forma:
+
+![](/assets/images/python/43.png)
+
+![](/assets/images/python/44.png)
