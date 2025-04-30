@@ -74,3 +74,17 @@ Si queremos hacer que se vea más atractivo, podemos modificar el código de est
 ![](/assets/images/python/43.png)
 
 ![](/assets/images/python/44.png)
+
+
+## Control de flujos en bucles
+
+Existen varias declaraciones que permiten modificar el comportamiento de los bucles:
+
+- **break**: esta declaración detiene el bucle de forma repentina, aunque otras condiciones no se cumplan: 
+
+```python3
+for numero in range(1, 10):
+    if numero == 5:
+        break  # Detiene el bucle cuando número es 5
+    print("Número:", numero)
+```
