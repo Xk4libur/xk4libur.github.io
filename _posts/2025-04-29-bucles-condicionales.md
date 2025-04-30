@@ -2,7 +2,7 @@
 layout: single
 title: Bucles en Python
 excerpt: "Los bucles son una parte fundamental del lenguaje de Python, ya que se usan constantemente en todos los códigos que existen."
-date: 2025-04-29
+date: 2025-04-30
 classes: wide
 header:
   teaser: /assets/images/slae32.png
