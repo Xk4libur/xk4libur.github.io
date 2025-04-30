@@ -93,3 +93,9 @@ Pero modificamos el código para que cuando el bucle llegue al número 3, se det
 ![](/assets/images/python/47.png)
 
 ![](/assets/images/python/48.png)
+
+- **continue**: esta declaración ignora una parte del código y pasa a la siguiete vuelta de bucle
+
+![](/assets/images/python/49.png)
+
+![](/assets/images/python/50.png)
