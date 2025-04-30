@@ -80,11 +80,16 @@ Si queremos hacer que se vea más atractivo, podemos modificar el código de est
 
 Existen varias declaraciones que permiten modificar el comportamiento de los bucles:
 
-- **break**: esta declaración detiene el bucle de forma repentina, aunque otras condiciones no se cumplan: 
+- **break**: esta declaración detiene el bucle de forma repentina, aunque otras condiciones no se cumplan. Un ejemplo para entender esta declaración es el siguiente.
 
-```python3
-for numero in range(1, 10):
-    if numero == 5:
-        break  # Detiene el bucle cuando número es 5
-    print("Número:", numero)
-```
+Creamos un bucle que nos muestre 6 números:
+
+![](/assets/images/python/45.png)
+
+![](/assets/images/python/46.png)
+
+Pero modificamos el código para que cuando el bucle llegue al número 3, se detenga y no muestre más números:
+
+![](/assets/images/python/47.png)
+
+![](/assets/images/python/48.png)
