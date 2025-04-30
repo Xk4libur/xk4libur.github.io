@@ -50,3 +50,11 @@ Lo que haríamos para cerrar el bucle sería modificiar el código de esta forma
 
 En este ejemplo, cada vez que el bucle termina una vuelta, se le suma 1 al valor de "contador", de esta forma llegará un momento en el que el valor de "contador" será igual a 10 y el bucle terminará.
 
+
+## Bucles anidados
+
+Este tipo de bucles en Python se pueden definir como **bucles que están dentro de otros bucles**.
+
+Un buen ejemplo para este tipo de bucle es el siguiente:
+
+![](/assets/images/python/39.png)
