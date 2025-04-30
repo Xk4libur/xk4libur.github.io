@@ -99,3 +99,16 @@ Pero modificamos el código para que cuando el bucle llegue al número 3, se det
 ![](/assets/images/python/49.png)
 
 ![](/assets/images/python/50.png)
+
+- **pass**: esta declaración es bastante especial, ya que en pocas palabras, **no hace nada**, es decir sirve como relleno para ciertos casos específicos, por ejemplo:
+
+![](/assets/images/python/51.png)
+
+![](/assets/images/python/52.png)
+
+En este ejemplo si edad es mayor o igual a 18, no se muestra nada por consola, pero si es menor a 18, pasa esto:
+
+![](/assets/images/python/53.png)
+
+![](/assets/images/python/54.png)
+
