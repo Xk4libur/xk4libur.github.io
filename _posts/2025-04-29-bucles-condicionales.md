@@ -94,7 +94,7 @@ Pero modificamos el código para que cuando el bucle llegue al número 3, se det
 
 ![](/assets/images/python/48.png)
 
-- **continue**: esta declaración ignora una parte del código y pasa a la siguiete vuelta de bucle
+- **continue**: esta declaración ignora una parte del código y pasa a la siguiete vuelta de bucle, en este ejemplo hay un bucle que muestra un rango de números del 1 al 9, al llegar al número 5, no solo muestra, es decir, se salta ese número y sigue mostrando los números restantes:
 
 ![](/assets/images/python/49.png)
 
