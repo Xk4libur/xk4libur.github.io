@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Condicionales en Python
-excerpt: "..."
+excerpt: "Las condicionales en Python son una forma de poder jugar con el código para que pueda elegir una opción a ejecutar dependiendo de las condiciones que estén definidas."
 date: 2025-04-30
 classes: wide
 header:
