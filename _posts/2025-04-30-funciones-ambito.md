@@ -1,8 +1,8 @@
 ---
 layout: single
-title: 
-excerpt: "..."
-date: 2025-04-30
+title: Funciones normales y funciones lambda
+excerpt: "En Python existen las funciones normales, las que todo el mundo usa, además de aquellas que se usan en situaciones temporales en una sola línea de código sin tener que escribir un bloque entero, las funciones 'lambda'."
+date: 2025-05-01
 classes: wide
 header:
   teaser: /assets/images/slae32.png
