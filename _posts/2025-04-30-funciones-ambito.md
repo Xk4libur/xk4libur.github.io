@@ -20,3 +20,5 @@ En este ejemplo se puede ver una función "**def**" que, al ser llamada, imprime
 
 ![](/assets/images/python/58.png)
 
+![](/assets/images/python/59.png)
+
