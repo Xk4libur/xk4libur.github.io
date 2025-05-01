@@ -27,3 +27,23 @@ También se pueden usar para sumar números y devolver el resultado:
 ![](/assets/images/python/60.png)
 
 ![](/assets/images/python/61.png)
+
+## ¿Qué son las funciones "lambda" anónimas en Python?
+
+Las **funciones lambda** son una forma rápida y sencilla de escribir funciones simples y pequeñas. Estas funciones no tienen nombre (de ahí lo de ***anónimas***) y se usan cuando se necesita una función simple en una sola línea, ahorrandose de escribir todo el bloque de código para una función normal.
+
+Un ejemplo de este tipo de función sería el siguiente:
+
+![](/assets/images/python/62.png)
+
+![](/assets/images/python/63.png)
+
+La función lambda contiene unas funciones de orden superior que ayudan a que el código sea más simple y eficiente, estas funciones son ideales para trabajar con listas. Estas funciones son:
+
+- **map**: aplica una función a cada elemento de una lista.
+
+En el siguiente ejemplo, se muestra un programa que toma los números de una lista y devuelve los números al cuadrado de los números de la lista:
+
+![](/assets/images/python/64.png)
+
+![](/assets/images/python/65.png)
