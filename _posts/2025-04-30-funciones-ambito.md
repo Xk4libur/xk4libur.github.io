@@ -47,3 +47,20 @@ En el siguiente ejemplo, se muestra un programa que toma los números de una lis
 ![](/assets/images/python/64.png)
 
 ![](/assets/images/python/65.png)
+
+
+- **filter**: filtra elementos que cumplen una condición
+
+En el siguiente ejemplo, se muestra un programa que toma los números de una lista y devuelve los números que son pares:
+
+![](/assets/images/python/66.png)
+
+![](/assets/images/python/67.png)
+
+- **sorted**: ordena elementos usando una función personalizada
+
+En el siguiente ejemplo, se muestra un programa que toma las palabras de una lista y las ordena en cuanto a cantidad de letras, de menor a mayor:
+
+![](/assets/images/python/68.png)
+
+![](/assets/images/python/69.png)
