@@ -46,3 +46,13 @@ Pero si ahora hacemos esta modificación el código:
 Ahora hemos dicho que pruebe a hacer la operatoria y en caso de ocurra de nuevo el mimso error que antes, mostrará un mensaje por consola:
 
 ![](/assets/images/python/73.png)
+
+Evidentemente, al ser Python un lenguaje muy popular a nivel mundial, pueden ocurrir un sin fin de errores, pero gracias a esta utilidad, podemos controlar mejor el flujo del programa e interrumpirlo de forma más controlada.
+
+En caso de que el programa no devuelva error y se ejecute correctamente la operatoria, podemos modificar el código para que nos muestre el resultado de dicha operatoria:
+
+![](/assets/images/python/74.png)
+
+Pero es muy importante que para que esta condicional muestre el mensaje por consola, la operatoria tiene que ser exitosa y sin errores:
+
+![](/assets/images/python/75.png)
