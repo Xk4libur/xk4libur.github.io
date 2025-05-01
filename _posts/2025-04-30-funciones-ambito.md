@@ -22,3 +22,8 @@ En este ejemplo se puede ver una función "**def**" que, al ser llamada, imprime
 
 ![](/assets/images/python/59.png)
 
+También se pueden usar para sumar números y devolver el resultado:
+
+![](/assets/images/python/60.png)
+
+![](/assets/images/python/61.png)
