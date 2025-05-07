@@ -1,8 +1,8 @@
 ---
 layout: single
 title:  Listas en Python
-excerpt: "Lorep ipsum"
-date: 2025-05-01
+excerpt: "Las listas en Python son estructuras de datos que almacenan elementos ordenados, permiten duplicados y son modificables."
+date: 2025-05-07
 classes: wide
 header:
   teaser: /assets/images/slae32.png
