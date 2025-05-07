@@ -18,6 +18,14 @@ Las **listas** son **estructuras de datos** que se usan para almacenar elementos
 
 Un ejemplo de una lista es el siguiente:
 
-![](/assets/images/python/75.png)
+![](/assets/images/python/76.png)
 
 En caso de que las listas tengan elementos desordenados, hay una forma de poder ver el resultado de la lista de forma ordenada:
+
+![](/assets/images/python/77.png)
+
+Es tan sencillo como añadir la función de “**sort()**” a la lista para que al imprimir la lista por pantalla, los elementos aparezcan ordenados.
+
+![](/assets/images/python/78.png)
+
+Aquí ya se ven los números ordenados correctamente.
