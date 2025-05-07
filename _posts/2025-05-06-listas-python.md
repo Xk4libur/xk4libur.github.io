@@ -84,3 +84,10 @@ Puede ser que tengas una lista ya lista con sus elementos, pero con el paso del 
 
 ![](/assets/images/python/89.png)
 
+### · Eliminar elementos a la lista:
+<br>
+Al igual que podemos añadir añadir elementos a una lista, también podemos eliminar elementos de una lista existente:
+
+![](/assets/images/python/90.png)
+
+![](/assets/images/python/91.png)
