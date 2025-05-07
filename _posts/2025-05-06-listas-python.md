@@ -69,3 +69,18 @@ También es posible sacar varios elementos de una lista al mismo tiempo, en este
 El resultado es el siguiente:
 
 ![](/assets/images/python/87.png)
+
+## Operaciones con listas en Python
+
+Las operaciones con listas en Python son esenciales en la vida real, ya que permiten manejar y organizar datos de manera eficiente. 
+
+Algunos ejemplos de las operaciones que se pueden hacer son:
+
+### · Añadir nuevos elementos a la lista:
+<br>
+Puede ser que tengas una lista ya lista con sus elementos, pero con el paso del tiempo se deben añadir más elementos, en este caso con la función de **append**, se pueden añadir nuevos elementos a la lista sin tener que modificarla:
+
+![](/assets/images/python/88.png)
+
+![](/assets/images/python/89.png)
+
