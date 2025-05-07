@@ -29,3 +29,11 @@ Es tan sencillo como añadir la función de “**sort()**” a la lista para que
 ![](/assets/images/python/78.png)
 
 Aquí ya se ven los números ordenados correctamente.
+
+Las listas también tienen ciertas características que las hacen más útiles, entre ellas: 
+
+· Almacenar datos de diferentes tipos dentro de una misma lista:
+
+![](/assets/images/python/79.png)
+
+![](/assets/images/python/80.png)
