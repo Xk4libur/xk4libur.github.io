@@ -30,10 +30,19 @@ Es tan sencillo como añadir la función de “**sort()**” a la lista para que
 
 Aquí ya se ven los números ordenados correctamente.
 
+## Características de las listas en Python
+
 Las listas también tienen ciertas características que las hacen más útiles, entre ellas: 
 
-· Almacenar datos de diferentes tipos dentro de una misma lista:
+· **Almacenar datos de diferentes tipos dentro de una misma lista**:
 
 ![](/assets/images/python/79.png)
 
 ![](/assets/images/python/80.png)
+
+· **Acceder a elementos específicos de la lista usando su índice, o también llamado indexar lista**:
+
+Aquí tenemos una lista de nombres como ejemplo:
+
+![](/assets/images/python/81.png)
+
