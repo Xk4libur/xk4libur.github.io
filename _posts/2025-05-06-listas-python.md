@@ -40,7 +40,7 @@ Las listas también tienen ciertas características que las hacen más útiles, 
 
 ![](/assets/images/python/80.png)
 
-### Acceder a elementos específicos de la lista usando su índice, o también llamado indexar lista:
+### · Acceder a elementos específicos de la lista usando su índice, o también llamado indexar lista:
 <br>
 Aquí tenemos una lista de nombres como ejemplo:
 
@@ -64,3 +64,8 @@ Para asegurarnos de que sacamos siempre el último elemento de la lista, hacemos
 
 También es posible sacar varios elementos de una lista al mismo tiempo, en este caso se sacarán los **3 primeros elementos**:
 
+![](/assets/images/python/86.png)
+
+El resultado es el siguiente:
+
+![](/assets/images/python/87.png)
