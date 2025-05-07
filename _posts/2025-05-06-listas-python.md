@@ -36,6 +36,7 @@ Las listas también tienen ciertas características que las hacen más útiles, 
 
 ### Almacenar datos de diferentes tipos dentro de una misma lista:
 
+
 ![](/assets/images/python/79.png)
 
 ![](/assets/images/python/80.png)
