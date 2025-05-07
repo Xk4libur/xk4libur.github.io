@@ -34,7 +34,7 @@ Aquí ya se ven los números ordenados correctamente.
 
 Las listas también tienen ciertas características que las hacen más útiles, entre ellas: 
 
-### **Almacenar datos de diferentes tipos dentro de una misma lista**:
+### Almacenar datos de diferentes tipos dentro de una misma lista:
 
 ![](/assets/images/python/79.png)
 
