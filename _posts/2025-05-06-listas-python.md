@@ -46,3 +46,18 @@ Aquí tenemos una lista de nombres como ejemplo:
 
 ![](/assets/images/python/81.png)
 
+Si queremos ver el primer elemento de la lista, ponemos lo siguiente:
+
+![](/assets/images/python/82.png)
+
+El resultado es el siguiente:
+
+![](/assets/images/python/83.png)
+
+También podemos sacar el último elemento de la lista, en este caso NO hay que poner el número del índice del último elemento de la lista, ya que en caso de que la lista cambie, el último elemento también cambiará. 
+
+Para asegurarnos de que sacamos siempre el último elemento de la lista, hacemos lo siguiente:
+
+![](/assets/images/python/84.png)
+
+![](/assets/images/python/85.png)
