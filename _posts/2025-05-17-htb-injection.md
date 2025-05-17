@@ -1,0 +1,86 @@
+---
+layout: single
+title: Mirai - Hack The Box
+excerpt: "Una máquina muy entretenida, sin duda :)."
+date: 2025-05-10
+classes: wide
+header:
+  teaser:
+  teaser_home_page: true
+  icon: /assets/images/htb_logo.webp
+categories:
+  - Hack The Box - Easy
+tags:  
+---
+
+Empezamos haciendo un **ping** a la máquina víctima para saber si está en línea:
+ 
+![](/assets/images/htb-mirai/1.png)
+
+Podemos ver que hay conexión con la máquina víctima y por el número del **TTL**, podemos definir que es una **máquina Linux**. 
+
+Ahora que ya sabemos que tenemos conexión pasamos a escanear los puertos abiertos de la máquina:
+
+![](/assets/images/htb-mirai/2.png)
+
+Al parecer solo hay un puerto abierto, es el **puerto 80** que corresponde al servicio **http**, es decir, hay una página web corriendo por detrás de la máquina.
+
+![](/assets/images/htb-mirai/3.png)
+
+Para ver el contenido de la web, copiamos la IP de la máquina víctima en el navegador:
+
+![](/assets/images/htb-mirai/4.png)
+
+Al parecer no podemos ver nada: 
+
+![](/assets/images/htb-mirai/5.png)
+
+Vamos a tratar de buscar directorios y/o archivos ocultos dentro de la web, ya que a simple vista no se pueden ver:
+
+![](/assets/images/htb-mirai/6.png)
+
+De todo lo que hay, encontramos esto:
+
+![](/assets/images/htb-mirai/7.png)
+
+Hay un directorio oculto llamado “**/admin**”, vamos a ver que contiene:
+
+![](/assets/images/htb-mirai/8.png)
+
+![](/assets/images/htb-mirai/9.png)
+
+Parece ser que la máquina está inspirada en una Raspberry Pi, y en este caso específico, podemos iniciar sesión dentro de la máquina usando las credenciales por defecto de las Raspberry Pi (Username: pi - Password: raspberry):
+
+![](/assets/images/htb-mirai/11.png)
+
+![](/assets/images/htb-mirai/12.png)
+
+La flag del usuario no privilegiado la encontraremos en esta ruta:
+
+![](/assets/images/htb-mirai/13.png)
+
+Vamos a comprobar la cantidad de permisos que tenemos siendo usuario no privilegiado:
+
+![](/assets/images/htb-mirai/14.png)
+
+Pues perfecto, no tenemos restricciones prácticamente, podemos escalar privilegios a sudo con el siguiente comando:
+
+![](/assets/images/htb-mirai/15.png)
+
+Si listamos el contenido de la flag, veremos esto:
+
+![](/assets/images/htb-mirai/16.png)
+
+Pues parece ser que no está la flag, pero nos dice que hay un backup en un usb dentro de la máquina.
+
+Si listamos las monturas que tiene la máquina, veremos que:
+
+![](/assets/images/htb-mirai/17.png)
+
+Podemos ver que el dispositivo USB está montado en el "/dev/sdb" y si finalmente listamos las cadenas de texto que podamos leer dentro del dispositivo USB, veremos la flag del usuario root del sistema:
+
+![](/assets/images/htb-mirai/19.png)
+
+![](/assets/images/htb-mirai/20.png)
+
+
