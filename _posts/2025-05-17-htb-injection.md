@@ -139,3 +139,27 @@ Y este es el contenido dentro del directorio de trabajo de Phil:
 
 ![](/assets/images/htb-inject/32.png)
 
+Algo que me entra curiosidad hacer es incluir un recurso que no existe en la máquina en la petición CURL para ver que sucede:
+
+![](/assets/images/htb-inject/33.png)
+
+Este es el resultado:
+
+![](/assets/images/htb-inject/34.png)
+
+Algo que me llama mucho la atención es esto:
+
+![](/assets/images/htb-inject/35.png)
+
+Parece ser un recurso que está relacionado con la página web del servidor, si nos dirigimos a este recurso, veremos esto:
+
+![](/assets/images/htb-inject/36.png)
+
+Hay bastantes archivos en esta ruta, y el que me causa curiosidad es el “**pop.xml**”, así que vamos a incluirlo en el CURL para que datos contiene:
+
+![](/assets/images/htb-inject/37.png)
+
+De toda la información que hay, la que más se repite es esta:
+
+![](/assets/images/htb-inject/38.png)
+
