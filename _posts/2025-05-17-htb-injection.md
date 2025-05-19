@@ -62,3 +62,26 @@ Vamos a dirigirnos al directorio “**/blogs**”:
 Tampoco hay nada que nos pueda interesar:
 
 ![](/assets/images/htb-inject/12.png)
+
+Vamos al directorio “**/uploads**”, es el único interesante que queda en la máquina:
+
+![](/assets/images/htb-inject/13.png)
+
+En la esquina superior derecha, podremos ver esta opción:
+
+![](/assets/images/htb-inject/14.png)
+
+Al seleccionar la opción, nos aparece una barra para subir archivos a la web:
+
+![](/assets/images/htb-inject/15.png)
+
+Vamos a tratar de subir un archivo de texto solo como una prueba:
+
+![](/assets/images/htb-inject/16.png)
+
+![](/assets/images/htb-inject/17.png)
+
+La web solo acepta archivos de que sean imágenes:
+
+![](/assets/images/htb-inject/18.png)
+
