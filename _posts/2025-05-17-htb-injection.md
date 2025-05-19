@@ -93,4 +93,23 @@ La peticición HTTP que tengamos, la mandamos al "repeater":
 
 ![](/assets/images/htb-inject/20.png)
 
+Desde aquí, podemos ver el nombre del archivo que subamos:
+
+![](/assets/images/htb-inject/21.png)
+
+Vamos a probar a cambiar la extensión del archivo desde texto a imagen:
+
+![](/assets/images/htb-inject/22.png)
+
+En este caso, si que nos permite subir el archivo, y además podremos ver esto:
+
+![](/assets/images/htb-inject/23.png)
+
+Esto me suena mucho a un **Local File Inclusion**, de hecho en la propia máquina aparece como uno de los temas que se tratan:
+
+![](/assets/images/htb-inject/24.png)
+
+Vamos a hacer una petición con CURL directamente a la ruta donde se encuentra el archivo que subimos anteriormente, para ver si podemos encontrar algo que nos sirva:
+
+![](/assets/images/htb-inject/25.png)
 
