@@ -113,3 +113,29 @@ Vamos a hacer una petición con CURL directamente a la ruta donde se encuentra e
 
 ![](/assets/images/htb-inject/25.png)
 
+Si intentamos hacer un **directory listing**, podremos ver los directorios dentro de la propia máquina: 
+
+![](/assets/images/htb-inject/26.png)
+
+Como esta máquina tiene un LFI como vulnerabilidad, vamos a ver el contenido del archivo “**/etc/passwd**”:
+
+![](/assets/images/htb-inject/27.png)
+
+![](/assets/images/htb-inject/28.png)
+
+Para poder ver los usuarios que existen en la máquina, podemos listar solo aquellas líneas que terminen con “sh”, ya que de esta forma podremos ver la terminal que usa cada usuario:
+
+![](/assets/images/htb-inject/29.png)
+
+Podemos ver que hay **2 usuarios**, **phil** y **frank**, si nos dirigimos al directorio “/home”, veremos que están los directorios propios de cada usuario:
+
+![](/assets/images/htb-inject/30.png)
+
+Dentro del directorio de trabajo de Frank encontramos esto:
+
+![](/assets/images/htb-inject/31.png)
+
+Y este es el contenido dentro del directorio de trabajo de Phil:
+
+![](/assets/images/htb-inject/32.png)
+
