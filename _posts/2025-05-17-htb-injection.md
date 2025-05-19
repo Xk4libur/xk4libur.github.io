@@ -85,3 +85,12 @@ La web solo acepta archivos de que sean imágenes:
 
 ![](/assets/images/htb-inject/18.png)
 
+Vamos a iniciar el Burpsuite para controlar mejor las peticiones: 
+
+![](/assets/images/htb-inject/19.png)
+
+La peticición HTTP que tengamos, la mandamos al "repeater":
+
+![](/assets/images/htb-inject/20.png)
+
+
