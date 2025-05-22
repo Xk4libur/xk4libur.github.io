@@ -4,9 +4,9 @@ permalink: /about/
 date: 2025-05-22
 ---
 
-<div style="text-align: center;">
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 70vh;">
 
-<span style="font-size: 2em;">I am the sword of the chosen knight</span>
+<span style="font-size: 2.5em;">I am the sword of the chosen knight</span>
 
 <br><br>
 
