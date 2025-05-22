@@ -40,3 +40,19 @@ En este ejemplo se ha creado una tupla con una secuencia de números y se muestr
 ![](/assets/images/python/94.png)
 
 ![](/assets/images/python/95.png)
+
+## Heterogeneidad 
+
+Una tupla puede tener elementos de diferentes tipos, ya sean **números**, **texto**, **listas** o **incluso** otras tuplas. 
+
+En este ejemplo se ha creado una tupla que contiene elementos de diferentes tipos:
+
+![](/assets/images/python/96.png)
+
+![](/assets/images/python/97.png)
+
+Aprovechando que una tupla puede contener diferentes tipos de elemntos, podemos combinarla con una bucle '**for**' para que nos muestre cada tipo de valor de cada elemento de la tupla:
+
+![](/assets/images/python/98.png)
+
+![](/assets/images/python/99.png)
