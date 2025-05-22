@@ -7,7 +7,7 @@ classes: wide
 header:
   teaser:
   teaser_home_page: true
-  icon: /assets/images/htb_logo.webp
+  icon: /assets/images/python_logo.webp
 categories:
   - Python
 tags:  
