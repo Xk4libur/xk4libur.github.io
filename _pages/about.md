@@ -10,7 +10,7 @@ date: 2025-05-22
 
 <br><br>
 
-<img src="/assets/images/images.png" alt="About image" />
+<img src="/assets/images/images.png" alt="About image" style="border-radius: 20px;" />
 
 <br>
 
