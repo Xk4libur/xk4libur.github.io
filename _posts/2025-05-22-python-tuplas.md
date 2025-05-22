@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Tuplas en Python
-excerpt: "Lorem ipsum"
+excerpt: "Una tupla es una estructura de datos inmutable que puede guardar varios elementos, pero no se puede modificar después de ser creada. Se puede usar para realizar operaciones con coordenadas o con datos que no deben o pueden ser modificados."
 date: 2025-05-22
 classes: wide
 header:
