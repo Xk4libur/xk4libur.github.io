@@ -31,4 +31,12 @@ En este ejemplo se ha creado una tupla con una secuencia de números y se intent
 
 El error que aparece significa que la tupla no soporta que se le asigne un nuevo elemento.
 
-- **Indexación**: los elementos pueden ser accesibles desde su índice
+## Indexación 
+
+Los elementos pueden ser accesibles desde su índice.
+
+En este ejemplo se ha creado una tupla con una secuencia de números y se muestran los números de la tupla basados en su índice en cuanto a su posición dentro de la tupla:
+
+![](/assets/images/python/94.png)
+
+![](/assets/images/python/95.png)
