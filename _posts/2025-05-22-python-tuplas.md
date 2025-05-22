@@ -88,4 +88,10 @@ Un ejemplo de una concatenación sería este:
 
 ![](/assets/images/python/105.png)
 
+Una **repetición** de tuplas consiste en repetir varias veces una misma tupla ya existente.
 
+Un ejemplo de una repetición sería este:
+
+![](/assets/images/python/106.png)
+
+![](/assets/images/python/107.png)
