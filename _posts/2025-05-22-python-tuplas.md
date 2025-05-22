@@ -19,7 +19,9 @@ Las tuplas son usadas en situaciones donde los elementos no deben ser modificado
 
 Algunas características de las tuplas son las siguientes: 
 
-- **Inmutabilidad**: los datos de una tupla no se pueden cambiar, añadir ni eliminar.
+### Inmutabilidad 
+
+Los datos de una tupla no se pueden cambiar, añadir ni eliminar.
 
 En este ejemplo se ha creado una tupla con una secuencia de números y se intenta sustituir el primer número de la tupla por otro diferente, como en este caso es una tupla, el cambio no se puede realizar correctamente:
 
