@@ -78,5 +78,14 @@ Para poder diferenciar un empaquetado de un desempaquetado, se muestra el siguie
 
 ![](/assets/images/python/103.png)
 
+## · Concatenación y repetición de tuplas
+
+Una **concatenación** de tuplas consiste en combinar varias tuplas en una sola.
+
+Un ejemplo de una concatenación sería este: 
+
+![](/assets/images/python/104.png)
+
+![](/assets/images/python/105.png)
 
 
