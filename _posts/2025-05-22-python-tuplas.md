@@ -20,7 +20,7 @@ Las tuplas son usadas en situaciones donde los elementos no deben ser modificado
 
 ## ¿Cuáles son las características de las tuplas?
 
-## Inmutabilidad
+### Inmutabilidad
 
 Los datos de una tupla no se pueden cambiar, añadir ni eliminar.
 
@@ -32,7 +32,7 @@ En este ejemplo se ha creado una tupla con una secuencia de números y se intent
 
 El error que aparece significa que la tupla no soporta que se le asigne un nuevo elemento.
 
-## Indexación 
+### Indexación 
 
 Los elementos pueden ser accesibles desde su índice.
 
@@ -42,7 +42,7 @@ En este ejemplo se ha creado una tupla con una secuencia de números y se muestr
 
 ![](/assets/images/python/95.png)
 
-## Heterogeneidad
+### Heterogeneidad
 
 Una tupla puede tener elementos de diferentes tipos, ya sean **números**, **texto**, **listas** o **incluso** otras tuplas. 
 
@@ -57,3 +57,15 @@ Aprovechando que una tupla puede contener diferentes tipos de elemntos, podemos 
 ![](/assets/images/python/98.png)
 
 ![](/assets/images/python/99.png)
+
+## ¿Qué tipos de operaciones se pueden realizazr con las tuplas?
+
+Si bien es cierto que las tuplas no se pueden modificar, sí existen algunas operaciones que se pueden realizar con ellas.
+
+### Empaquetado y desempaquetado de tuplas
+
+El **empaquetado de tuplas** consiste en crear una tupla usando diferentes valores:
+
+![](/assets/images/python/100.png)
+
+![](/assets/images/python/101.png)
