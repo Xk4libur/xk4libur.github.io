@@ -1,6 +1,6 @@
 ---
-title: "Who am I?"
-permalink: /about/
+title: "Who am I"
+permalink: /whoami/
 date: 2025-05-22
 ---
 
