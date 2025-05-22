@@ -20,7 +20,7 @@ Las tuplas son usadas en situaciones donde los elementos no deben ser modificado
 
 ## ¿Cuáles son las características de las tuplas?
 
-### Inmutabilidad
+### · Inmutabilidad
 
 Los datos de una tupla no se pueden cambiar, añadir ni eliminar.
 
@@ -62,7 +62,7 @@ Aprovechando que una tupla puede contener diferentes tipos de elemntos, podemos 
 
 Si bien es cierto que las tuplas no se pueden modificar, sí existen algunas operaciones que se pueden realizar con ellas.
 
-### Empaquetado y desempaquetado de tuplas
+### · Empaquetado y desempaquetado de tuplas
 
 El **empaquetado de tuplas** consiste en crear una tupla usando diferentes valores:
 
