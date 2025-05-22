@@ -17,9 +17,10 @@ Las tuplas son colecciones de elementos ordenados que, una vez son creadas, ya n
 
 Las tuplas son usadas en situaciones donde los elementos no deben ser modificados o no tienen sentido modificarlos.
 
-Algunas características de las tuplas son las siguientes: 
 
-## Inmutabilidad 
+## ¿Cuáles son las características de las tuplas?
+
+# Inmutabilidad 
 
 Los datos de una tupla no se pueden cambiar, añadir ni eliminar.
 
@@ -31,7 +32,7 @@ En este ejemplo se ha creado una tupla con una secuencia de números y se intent
 
 El error que aparece significa que la tupla no soporta que se le asigne un nuevo elemento.
 
-## Indexación 
+# Indexación 
 
 Los elementos pueden ser accesibles desde su índice.
 
@@ -41,7 +42,7 @@ En este ejemplo se ha creado una tupla con una secuencia de números y se muestr
 
 ![](/assets/images/python/95.png)
 
-## Heterogeneidad 
+# Heterogeneidad 
 
 Una tupla puede tener elementos de diferentes tipos, ya sean **números**, **texto**, **listas** o **incluso** otras tuplas. 
 
