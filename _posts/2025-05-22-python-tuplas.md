@@ -70,4 +70,13 @@ El **empaquetado de tuplas** consiste en crear una tupla usando diferentes valor
 
 ![](/assets/images/python/101.png)
 
-El desempaquetado de tuplas
+El **desempaquetado de tuplas** consiste en extraer los valores de una tupla y asignarlos a variables de forma individual.
+
+Para poder diferenciar un empaquetado de un desempaquetado, se muestra el siguiente ejemplo:
+
+![](/assets/images/python/102.png)
+
+![](/assets/images/python/103.png)
+
+
+
