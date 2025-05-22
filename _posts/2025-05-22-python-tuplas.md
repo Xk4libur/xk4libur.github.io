@@ -95,3 +95,17 @@ Un ejemplo de una repetición sería este:
 ![](/assets/images/python/106.png)
 
 ![](/assets/images/python/107.png)
+
+Algunas operaciones más que se pueden hacer con las tuplas, son las **operaciones de búsqueda**, de tal forma que podemos **encontrar la posición** de un elemento dentro de una tupla, además de poder **contar** el **número de veces** que aparece ese mismo elemento dentro de la tupla.
+
+En este ejemplo, se realiza una operatoria para localizar la posición de un elemento dentro de la tupla:
+
+![](/assets/images/python/108.png)
+
+![](/assets/images/python/109.png)
+
+En este ejemplo, se realiza una operatoria para conocer el número de veces que aparece un elemento dentro de la tupla:
+
+![](/assets/images/python/110.png)
+
+![](/assets/images/python/111.png)
