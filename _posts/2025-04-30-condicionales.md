@@ -5,7 +5,10 @@ excerpt: "Las condicionales en Python son una forma de poder jugar con el códig
 date: 2025-04-30
 classes: wide
 header:
-  teaser: /assets/images/slae32.png
+  teaser: /assets/images/slae32.png 
+  icon: /assets/images/python_logo.webp
+
+
 categories:
   - Python
 tags:

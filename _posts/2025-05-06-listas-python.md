@@ -6,6 +6,8 @@ date: 2025-05-07
 classes: wide
 header:
   teaser: /assets/images/slae32.png
+  icon: /assets/images/python_logo.webp
+
 categories:
   - Python
 tags:
