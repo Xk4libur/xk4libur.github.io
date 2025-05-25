@@ -33,4 +33,14 @@ La palabra **'rojo'** aparece una sola vez, aunque en el código aparece 2 veces
 
 ### · Elementos desordenados
 
-Los conjuntos no mantienen los elementos en un orden espećifico, es decir, no se almacenan en el orden en que se añaden, debido a que Python prioriza la velocidad en vez del orden
+Los conjuntos no mantienen los elementos en un orden espećifico, es decir, no se almacenan en el orden en que se añaden, debido a que Python prioriza la velocidad en vez del orden.
+
+Ejemplo:
+
+![](/assets/images/python/114.png)
+
+![](/assets/images/python/115.png)
+
+![](/assets/images/python/116.png)
+
+En este ejemplo se ejecutó el código **2 veces**, aunque en el primer resultado los elementos aparecen ordenados, puede ser que aparezcan desordenados, como ocurre con el segundo resultado.s
