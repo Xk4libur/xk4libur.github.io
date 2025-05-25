@@ -43,4 +43,11 @@ Ejemplo:
 
 ![](/assets/images/python/116.png)
 
-En este ejemplo se ejecutó el código **2 veces**, aunque en el primer resultado los elementos aparecen ordenados, puede ser que aparezcan desordenados, como ocurre con el segundo resultado.s
+En este ejemplo se ejecutó el código **2 veces**, aunque en el primer resultado los elementos aparecen ordenados, puede ser que aparezcan desordenados, como ocurre con el segundo resultado.
+
+### · Mutabilidad
+
+Tambien se pueden añadir o eliminar elementos de un conjunto de la siguiente forma:
+
+![](/assets/images/python/117.png)
+
