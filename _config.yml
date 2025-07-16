@@ -15,8 +15,8 @@ remote_theme             : "mmistakes/minimal-mistakes@4.15.1"
 minimal_mistakes_skin    : "haxor" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "snowscan.io"
+locale                   : "es-ES" # "en-US" (default), "es-ES", "fr-FR", etc.
+title                    : "xk4libur"
 title_separator          : "-"
 name                     : "xk4libur"
 description              : "Posts about security, CTFs and networking"
@@ -101,7 +101,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Snowscan"
+  name             : "xk4libur"
   avatar           : "/assets/images/logo.png"
   bio              : "CTF player"
   location         : "Ireland"
