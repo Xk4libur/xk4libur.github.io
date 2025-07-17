@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Web Requests
-excerpt: Prueba.
+excerpt: test.
 date: 2025-07-18
 classes: wide
 header:
