@@ -2,7 +2,7 @@
 layout: single
 title: ¿Qué es Python?
 excerpt: .
-date: 2025-07-29
+date: xx
 classes: wide
 header:
   teaser: /assets/images/x/x.png
