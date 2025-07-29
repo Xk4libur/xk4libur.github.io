@@ -1,13 +1,13 @@
 ---
 layout: single
-title: Web Requests
-excerpt: test.
-date: 2025-07-18
+title: ¿Qué es Python?
+excerpt: Prueba.
+date: 2025-07-29
 classes: wide
 header:
   teaser: /assets/images/x/x.png
 categories:
-  - hacking web
+  - Python
 ---
 
 Web requests are messages that the browser or client application sends to a web server to request a resource that the server has available.
