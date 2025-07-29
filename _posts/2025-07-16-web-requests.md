@@ -1,7 +1,7 @@
 ---
 layout: single
 title: ¿Qué es Python?
-excerpt: Prueba.
+excerpt: .
 date: 2025-07-29
 classes: wide
 header:
